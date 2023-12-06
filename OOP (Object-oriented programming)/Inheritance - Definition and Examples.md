@@ -20,4 +20,8 @@ class Animais:
 class Cachorro(animais): # <- no parenteses to herdando da classe "Animais"
     def andar(self):
 	    self.funcaoDeAndar() # <- to pegando o metodo da classe "Animais"
+
+dog = Cachorro()
+
+dog.andar() # -> irá ret
 ```
