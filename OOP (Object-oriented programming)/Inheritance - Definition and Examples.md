@@ -7,17 +7,17 @@ Supunhetamos que eu tenha a classe **cachorro**, porem também tenho uma classe 
 
 ```python
 # definindo uma super-classe
-class animais:
+class Animais:
 	#imagine que tenha o construtor __init__ aq, to com preguica de fazer
 	
     def andar(self):
-	    self.andar()
+	    self.funcaoDeAndar()
 	    
 	def nadar(self):
-		self.nadar()
+		self.funcaoDeNadar()
 
-# inheritance
-class ac(animais):
-    # attributes and method of super_class
-    # attributes and method of sub_class
+# herança
+class Cachorro(animais): # <- no parenteses to herdando da classe "Animais"
+    def andar(self):
+	    self.funcaoDeAndar() # <- to pegando o metodo da classe "Animais"
 ```
