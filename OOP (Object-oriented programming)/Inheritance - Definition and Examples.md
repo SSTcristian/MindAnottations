@@ -11,16 +11,16 @@ class Animais:
 		pass
 	
     def funcaoDeAndar(self):
-	    # imagina que tem uma funcao de andar aqui
+	    print('anda ae animal')
 	    
 	def funcaoDeNadar(self):
-		# anda so q na agua ebaa
+		print('nada aí')
 		
 # herança
-class Cachorro(animais): # -> no parenteses to herdando da classe "Animais"
+class Cachorro(Animais): # -> no parenteses to herdando da classe "Animais"
     def andar(self):
 	    self.funcaoDeAndar() # -> to pegando o metodo da classe "Animais"
 
 dog = Cachorro()
-dog.andar() # -> irá retornar o metodo 'self.funcaoDeAndar()'
+dog.andar() # -> irá retornar o print 'anda ae animal'
 ```
