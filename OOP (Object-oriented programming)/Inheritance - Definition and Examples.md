@@ -1,27 +1,26 @@
-
 # Definição
-A **herança** consiste em aproveitar os métodos e atributos de uma classe já existente para gerar outras classes.
+A **herança** consiste em aproveitar os métodos e atributos de uma classe para usar em outras classes.
 
-## Exemplo
+# Exemplo
 Supunhetamos que eu tenha a classe **cachorro**, porem também tenho uma classe chamada **animais** que possui o método **andar**, **nadar** e etc. Para eu não reinventar a roda, eu posso herdar o método **andar** da classe animal e colocar esse método na classe cachorro.
 
 ```python
 # definindo uma super-classe
 class Animais:
-	#imagine que tenha o construtor __init__ aq, to com preguica de fazer
+	def __init__(self) -> None:
+		pass
 	
-    def andar(self):
-	    self.funcaoDeAndar()
+    def funcaoDeAndar(self):
+	    # imagina que tem uma funcao de andar aqui
 	    
-	def nadar(self):
-		self.funcaoDeNadar()
-
+	def funcaoDeNadar(self):
+		# anda so q na agua ebaa
+		
 # herança
-class Cachorro(animais): # <- no parenteses to herdando da classe "Animais"
+class Cachorro(animais): # -> no parenteses to herdando da classe "Animais"
     def andar(self):
-	    self.funcaoDeAndar() # <- to pegando o metodo da classe "Animais"
+	    self.funcaoDeAndar() # -> to pegando o metodo da classe "Animais"
 
 dog = Cachorro()
-
-dog.andar() # -> irá ret
+dog.andar() # -> irá retornar o metodo 'self.funcaoDeAndar()'
 ```
