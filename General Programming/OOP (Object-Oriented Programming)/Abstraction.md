@@ -1,0 +1,1 @@
+Abstracao é o principio de criar uma classe que se dá

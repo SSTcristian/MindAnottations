@@ -78,8 +78,24 @@ def __init__(self, nome, cargo, valorHora):
 		self.__salario = self.__horas_trabalhadas * self.valor_hora_trabalhada
 ```
 
-Agora, se tentarmos alterar o salario, ira retornar uma mensagem
+Agora, se tentarmos alterar o salario, ira retornar uma mensagem de erro
 
-```pyt
+```python
+cristian = Funcionario('Cristian', 'Garoto de Programa rsrs', 50) 
+cristian.salario = 100000
+
+##############################
+Traceback (most recent call last):
+  File "encapsulamento.py", line 26, in <module>
+    f.salario = 1000
+  File "encapsulamento.py", line 16, in salario
+    raise ValueError("Impossivel alterar salario diretamente. Use a funcao calcula_salario().")
+ValueError: Impossivel alterar salario diretamente. Use a funcao calcula_salario().
 ```
 
+
+
+# Links
+
+https://algoritmosempython.com.br/cursos/programacao-python/encapsulamento/
+https://cursos.alura.com.br/forum/topico-o-que-o-metaclass-abcmeta-faz-184749
