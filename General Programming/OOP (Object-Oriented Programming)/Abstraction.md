@@ -59,4 +59,13 @@ class Euuu(Pessoa):
 		return drink():
 ```
 
-Assim, foi implementado as acoes dos 
+Assim, foi implementado as acoes dos metodos contidos na classe Pessoa
+
+A super classe eh responsavel por ter os atributos comuns a todas as outras sub classe (nesse caso foi **nome** e **idade**)
+
+Assim, a abstração permite que a classe Pessoa seja definida de forma mais genérica, sem se preocupar com as particularidades de cada pessoa, deixando esses detalhes para as suas classes filhas (sub classes)
+
+# Links
+https://www.usandopy.com/pt/artigo/desvendando-o-conceito-de-abstracao-na-programacao-orientada-a-objetos/
+
+https://dev.to/armandodelcolcoder/4-pilares-da-orientacao-a-objetos-em-python-2g1o
