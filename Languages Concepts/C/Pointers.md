@@ -1,6 +1,6 @@
 # Sumario
-- [Definição](#**Definição**)
-- [Exemplo de código em C que demonstra o conceito de ponteiros e vetores (arrays)](Pointers.md#**Exemplo%20de%20código%20em%20C%20que%20demonstra%20o%20conceito%20de%20ponteiros%20e%20vetores%20(arrays)**)
+- [Definição](#Definição)
+- [**Exemplo de código em C que demonstra o conceito de ponteiros e vetores (arrays)**](#**Exemplo%20de%20código%20em%20C%20que%20demonstra%20o%20conceito%20de%20ponteiros%20e%20vetores%20(arrays)**)
 - [Imagem que ilustra a alocação de um objeto em um endereço da memoria](#**Imagem%20que%20ilustra%20a%20alocação%20de%20um%20objeto%20em%20um%20endereço%20da%20memoria**)
 - [Perguntas](#Perguntas)
 - [Links](#Links)
@@ -49,11 +49,13 @@ for (i = 0; i < vet; i++) {
 ![](https://www.codingame.com/servlet/fileservlet?id=41409364165150)
 
 
-# Perguntas
+# **Perguntas**
+
+## Array sao ponteiros?
+Nao, arrays
 
 
-
-# Links
+# **Links**
 https://www.codingame.com/playgrounds/24988/programacao-c/ponteiros-e-vetores
 (foi nesse link onde eu peguei a imagem de ilustração)
 
