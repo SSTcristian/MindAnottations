@@ -1,0 +1,1 @@
+Em resumo, os ponteiros apontam para um endereco de memoria
