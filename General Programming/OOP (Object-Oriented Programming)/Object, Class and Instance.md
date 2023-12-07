@@ -16,8 +16,15 @@ Uma classe, falando tecnicamente, é um conjunto de métodos e propriedades que 
 
 As classes atuam como um modelo para os objetos
 
-Imagine que a classe é a pak
-Mas essa definicao ai é chata bagarai
+Imagine que a classe é a planta de uma casa, eh um modelo a ser seguido para a construção e possui certas características. Essa casa ainda não existe, pois só esta no papel
+
+O objeto é a CASA. É algo teoricamente físico, existe em tempo de execução, já teve um build e existe na memoria.
+
+A casa (classe) só vai passar a existir quando construirmos (build a aplicação) ela, ou seja, quando instanciamos (objeto) a classe
+
+"Então o objeto é uma instância da classe. Na classe você pode dizer que aquele objeto terá uma cor, no objeto você diz qual é a cor, só pode dizer isso porque foi definido na classe que essa informação deve estar no objeto.
+
+Mas essa definição ai é chata bagarai
 
 Uma classe é 
 
