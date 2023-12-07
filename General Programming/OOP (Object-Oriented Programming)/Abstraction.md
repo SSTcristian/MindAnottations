@@ -8,20 +8,25 @@ A abstração é bem parecia com a herança, de certo modo
 from abc import ABCMeta, abstractmethod #importanto a funcao de fazer uma classe e metodo abstrato (a classe nao precisa ser abstrata para o metodo tambem ser)
 
 class Pessoa:
-
 	def __init__(self, nome, idade)
 		self.nome = nome
 		self.idade = idade
 		
+	@abstractmethod
 	def falar(self):
-		#metodo de falar
+		pass
 		
+	@abstractmethod	
 	def andar(self):
-		#metodo de andar
+		pass
 		
+	@abstractmethod	
 	def comer(self)
-		#metodo de comer
+		pass
 		
+	@abstractmethod	
 	def beber(self):
-		#metodo de beber
+		pass
 ```
+
+Agora, se criarmos outra 
