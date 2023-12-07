@@ -5,7 +5,11 @@ Em outras palavras, dá pra dizer que os ponteiros são as coordenadas da sua ca
 O tamanho do ponteiro também varia de arquitetura para arquitetura.
 Em arquiteturas de 16 bits, ele possui o tamanho de 2 bytes. Em arquiteturas de 32 bits (a mais usada antigamente), ele possui 4 bytes. A arquitetura de 64 bits (usada hoje em dia), ele possui 8 bytes. 
 
-Porem, vai ser quase impossivel voce estourar o tamanho de memoria de uma arquitetura de 64 bits com um ponteiro, pois ela possu 
+Porem, é quase impossível estourar a alocação de memoria de uma arquitetura de 64 bits com um ponteiro, pois ela permite endereçar 16 ExaBytes na memoria
+
+- 1 ExaByte equivale a 1.000.000.000.000.000.000 Bytes
+
+***
 
 ```c
 #include <stdio.h>
