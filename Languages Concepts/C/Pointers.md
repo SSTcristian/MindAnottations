@@ -53,19 +53,31 @@ for (i = 0; i < vet; i++) {
 
 # **Perguntas**
 
-## Array são ponteiros?
+## [Arrays são ponteiros?](https://pt.stackoverflow.com/questions/91336/arrays-s%c3%a3o-ponteiros)
 NÃO.
 - Array é previamente uma alocação de memoria de elementos contínuos, não contendo mais de um tipo de dado
 - Ponteiro é uma referencia para algum local de memoria, apontando para um endereço
 
+https://pt.stackoverflow.com/questions/91336/arrays-são-ponteiros
+https://c-faq.com/aryptr/index.html
 
+## [Como uma variável é apontada para um ponteiro?](https://pt.stackoverflow.com/questions/91365/como-uma-vari%c3%a1vel-%c3%a9-apontada-para-um-ponteiro)
+
+```c
+int array[42] = {42};
+int *ptr = a
+```
+O valor de A é convertido para um ponteiro que aponta para o primeiro elemento do array
+
+Seria a mesma coisa se tivesse escrito desse jeito:
+```c
+int *pt*
+```
 # **Links**
 https://www.codingame.com/playgrounds/24988/programacao-c/ponteiros-e-vetores
 (foi nesse link onde eu peguei a imagem de ilustração)
 
 https://pt.stackoverflow.com/questions/266756/o-que-são-ponteiros
-
-https://pt.stackoverflow.com/questions/91336/arrays-são-ponteiros
 
 https://pt.stackoverflow.com/questions/57006/alocação-de-objetos-e-ponteiros
 
