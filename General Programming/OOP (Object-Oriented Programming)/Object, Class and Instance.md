@@ -49,11 +49,11 @@ print(pessoa1.dados()) # -> retornará 'Adrian Lindo, 15 anos'
 É a instancia de uma classe, vulgo objeto que cria a classe
 
 ```python
-# esse codigo foi usado la em cima, to usando pra ficar mais facil
+# esse codigo foi usado la em cima, to usando dnv pra ficar mais facil
 pessoa1 = Pessoa('Adrian Lindo,' 15)
 ```
 
-essa variável 'pessoa1' está instanciando a classe Pessoa1, ou seja, esta construindo a classe com as propriedades/parâmetros que ela tem
+A variável 'pessoa1' está instanciando a classe Pessoa1, ou seja, está construindo a classe com as propriedades/parâmetros que ela tem
 # Links
 
 https://pt.stackoverflow.com/questions/205482/em-programação-o-que-é-um-objeto
