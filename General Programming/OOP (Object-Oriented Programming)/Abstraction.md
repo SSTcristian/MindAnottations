@@ -1,6 +1,6 @@
 Abstração é o principio de criar uma classe que pode servir de base para outras classes parecidas.
 
-Por exemplo, se eu tenho uma classe Pessoa, eu posso colocar os métodos **falar**, **andar**, **comer** e **beber** nela, porem a implementação das ações desses métodos sera responsabilidade das sub classes
+Por exemplo, se eu tenho uma classe Pessoa, eu posso colocar os métodos **falar**, **andar**, **comer** e **beber** nela, porem a implementação das ações desses métodos será responsabilidade das sub classes
 
 A super classe abstrata apenas faz assinatura dos métodos abstrata dos, mas a implementação deles se da pela sub classe
 
@@ -33,7 +33,7 @@ class Pessoa(ABCMeta):
 
 ```
 
-Desse jeito, criamos uma classe abstrata contendo apenas a assinatura dos metodos
+Desse jeito, criamos uma classe abstrata contendo apenas a assinatura dos métodos
 
 Para criarmos uma sub classe dessa super classe, podemos herdar essa classe e implementar as acoes dos metodos abstratos
 
@@ -59,9 +59,9 @@ class Euuu(Pessoa):
 		return drink():
 ```
 
-Assim, foi implementado as acoes dos metodos contidos na classe Pessoa
+Assim, foi implementado as ações dos métodos contidos na classe Pessoa
 
-A super classe eh responsavel por ter os atributos comuns a todas as outras sub classe (nesse caso foi **nome** e **idade**)
+A super classe eh responsável por ter os atributos comuns a todas as outras sub classe (nesse caso foi **nome** e **idade**)
 
 Assim, a abstração permite que a classe Pessoa seja definida de forma mais genérica, sem se preocupar com as particularidades de cada pessoa, deixando esses detalhes para as suas classes filhas (sub classes)
 
