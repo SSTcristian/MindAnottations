@@ -36,6 +36,7 @@ class Funcionario():
 		self.valorHora = valorHora
 		self.__horasTrabalhadas = 0
 		self.__salario = 0
+		#adicionando __ antes do nome, essa propriedade fica "oculta"
 		
 	def registra_hora_trabalhada(self): 
 		self.__horas_trabalhadas += 1 
@@ -43,3 +44,42 @@ class Funcionario():
 	def calcula_salario(self): 
 		self.__salario = self.__horas_trabalhadas * self.valorHora
 ```
+
+Mesmo assimm, isso so indica que essa variavel nao devera ser acessada, porem se tentarmos ainda vai dar para acessa-la
+
+```python
+cristian = Funcionario('Cristian', 'GP rs', 50) # definindo os metodos da classe
+pedro.__salario = 100000 #alterando o valor do salario
+print(pedro.__salario) # -> 100000
+```
+
+Se quisermos impedir esse tipo de alteracao, podemos usar o decorator **@property**
+
+```python
+def __init__(self, nome, cargo, valorHora):
+		self.nome = nome
+		self.cargo = cargo
+		self.valorHora = valorHora
+		self.__horasTrabalhadas = 0
+		self.__salario = 0
+		
+	@property 
+	def salario(self): 
+		return self.__salario
+		
+	@salario.setter 
+	def salario(self, novo_salario): 
+		raise ValueError("Impossivel alterar salario diretamente. Use a funcao calcula_salario().") 
+		
+	def registra_hora_trabalhada(self): 
+		self.__horas_trabalhadas += 1 
+		
+	def calcula_salario(self): 
+		self.__salario = self.__horas_trabalhadas * self.valor_hora_trabalhada
+```
+
+Agora, se tentarmos alterar o salario, ira retornar uma mensagem
+
+```pyt
+```
+
