@@ -50,3 +50,5 @@ ins.printHI() # -> sub da subclasse
 
 
 
+# Link(s) para estudo
+https://www.pythonprogressivo.net/2018/11/Polimorfismo-O-que-Como-Usar-Como-fazer.html

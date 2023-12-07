@@ -24,3 +24,7 @@ class Cachorro(Animais): # -> no parenteses to herdando da classe "Animais"
 dog = Cachorro()
 dog.andar() # -> irá retornar o print 'anda ae animal'
 ```
+
+
+# Link(s) para estudo
+https://www.programiz.com/python-programming/inheritance
