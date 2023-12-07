@@ -2,6 +2,7 @@
 Polimorfismo consiste em uma subclasse ter o mesmo nome de um método da superclasse, porem executando diferentes funções.
 
 Poli = muitos
+
 morfismo = não sei oq é
 
 Ou seja, um método pode ter varias formas (ações)
