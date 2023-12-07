@@ -12,7 +12,14 @@ nesse caso, estamos atribuindo o conjunto de inteiros (bytes) na variável xpto,
 Especificamente, a variável não é um objeto em si, mas sim um local de armazenamento para o real objeto
 
 # Class
+Uma classe, falando tecnicamente, é um conjunto de métodos e propriedades que define o comportamento de uma entidade (vulgo objeto)
 
+As classes atuam como um modelo para os objetos
+
+Imagine que a classe é a pak
+Mas essa definicao ai é chata bagarai
+
+Uma classe é 
 
 # Instance
 
