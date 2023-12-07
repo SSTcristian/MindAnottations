@@ -45,8 +45,6 @@ for (i = 0; i < vet; i++) {
 // Vet[4] = e ptr = e
 ```
 
-^fb9fd4
-
 # **Imagem que ilustra a alocação de um objeto em um endereço da memoria**
 ![](https://www.codingame.com/servlet/fileservlet?id=41409364165150)
 
@@ -54,11 +52,11 @@ for (i = 0; i < vet; i++) {
 # **Perguntas**
 
 ## [Arrays são ponteiros?](https://pt.stackoverflow.com/questions/91336/arrays-s%c3%a3o-ponteiros)
+
 NÃO.
 - Array é previamente uma alocação de memoria de elementos contínuos, não contendo mais de um tipo de dado
 - Ponteiro é uma referencia para algum local de memoria, apontando para um endereço
 
-https://pt.stackoverflow.com/questions/91336/arrays-são-ponteiros
 https://c-faq.com/aryptr/index.html
 
 ## [Como uma variável é apontada para um ponteiro?](https://pt.stackoverflow.com/questions/91365/como-uma-vari%c3%a1vel-%c3%a9-apontada-para-um-ponteiro)
@@ -71,8 +69,10 @@ O valor de A é convertido para um ponteiro que aponta para o primeiro elemento 
 
 Seria a mesma coisa se tivesse escrito desse jeito:
 ```c
-int *pt*
+int *ptr = &(a[0]); // apontando para o primeiro elemento do vetor de 42 posições
 ```
+
+
 # **Links**
 https://www.codingame.com/playgrounds/24988/programacao-c/ponteiros-e-vetores
 (foi nesse link onde eu peguei a imagem de ilustração)
