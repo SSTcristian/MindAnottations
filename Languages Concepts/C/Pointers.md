@@ -28,7 +28,7 @@ for (i = 0; i < vet; i++) {
 // Vet[4] = e ptr = e
 ```
 
-## **Imagem que ilustra a alocação de um objeto em um endereço da memoria**
+## Imagem que ilustra a alocação de um objeto em um endereço da memoria
 ![](https://www.codingame.com/servlet/fileservlet?id=41409364165150)
 
 
@@ -36,6 +36,7 @@ for (i = 0; i < vet; i++) {
 
 # Links
 https://www.codingame.com/playgrounds/24988/programacao-c/ponteiros-e-vetores
+(foi nesse link onde eu peguei a imagem de ilustração)
 
 https://pt.stackoverflow.com/questions/266756/o-que-são-ponteiros
 
