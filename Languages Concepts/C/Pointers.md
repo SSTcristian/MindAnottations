@@ -45,14 +45,18 @@ for (i = 0; i < vet; i++) {
 // Vet[4] = e ptr = e
 ```
 
+^fb9fd4
+
 # **Imagem que ilustra a alocação de um objeto em um endereço da memoria**
 ![](https://www.codingame.com/servlet/fileservlet?id=41409364165150)
 
 
 # **Perguntas**
 
-## Array sao ponteiros?
-Nao, arrays
+## Array são ponteiros?
+NÃO.
+- Array é previamente uma alocação de memoria de elementos contínuos, não contendo mais de um tipo de dado
+- Ponteiro é uma referencia para algum local de memoria, apontando para um endereço
 
 
 # **Links**
