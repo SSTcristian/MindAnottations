@@ -29,6 +29,34 @@ class Pessoa(ABCMeta):
 	@abstractmethod	
 	def beber(self):
 		pass
+
+
 ```
 
-Agora, se criarmos outra 
+Desse jeito, criamos uma classe abstrata contendo apenas a assinatura dos metodos
+
+Para criarmos uma sub classe dessa super classe, podemos herdar essa classe e implementar as acoes dos metodos abstratos
+
+```python
+class Euuu(Pessoa):
+	def __init__(self, nome, idade):
+		super().__init__(nome, idade):
+		
+	def beleza(self):
+		beleza = 1000
+		return beleza
+		
+	def falar(self):
+		return speak():
+		
+	def andar():
+		return walk():
+		
+	def comer():
+		return eat():
+		
+	def beber():
+		return drink():
+```
+
+Assim, foi implementado as acoes dos 
