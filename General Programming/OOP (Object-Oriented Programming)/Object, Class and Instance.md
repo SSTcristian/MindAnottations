@@ -22,7 +22,7 @@ O objeto é a CASA. É algo teoricamente físico, existe em tempo de execução,
 
 A casa (classe) só vai passar a existir quando construirmos (build a aplicação) ela, ou seja, quando instanciamos (objeto) a classe
 
-"Então o objeto é uma instância da classe. Na classe você pode dizer que aquele objeto terá uma cor, no objeto você diz qual é a cor, só pode dizer isso porque foi definido na classe que essa informação deve estar no objeto.
+[[https://pt.stackoverflow.com/questions/100812/qual-a-diferença-entre-uma-classe-e-um-objeto?noredirect=1&lq=1 | Então o objeto é uma instância da classe. Na classe você pode dizer que aquele objeto terá uma cor, no objeto você diz qual é a cor, só pode dizer isso porque foi definido na classe que essa informação deve estar no objeto. ]]"Então o objeto é uma instância da classe. Na classe você pode dizer que aquele objeto terá uma cor, no objeto você diz qual é a cor, só pode dizer isso porque foi definido na classe que essa informação deve estar no objeto.")
 
 Mas essa definição ai é chata bagarai
 
