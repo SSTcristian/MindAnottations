@@ -1,3 +1,10 @@
+# Sumario
+- [**Definição**](#**Definição**)
+- [**Exemplo de código em C que demonstra o conceito de ponteiros e vetores (arrays)**](Pointers.md#**Exemplo%20de%20código%20em%20C%20que%20demonstra%20o%20conceito%20de%20ponteiros%20e%20vetores%20(arrays)**)
+- [**Imagem que ilustra a alocação de um objeto em um endereço da memoria**](#**Imagem%20que%20ilustra%20a%20alocação%20de%20um%20objeto%20em%20um%20endereço%20da%20memoria**)
+- 
+
+# **Definição**
 Em resumo, os ponteiros apontam para um endereço de memoria com algum tipo de objeto lá.
 
 Em outras palavras, dá pra dizer que os ponteiros são as coordenadas da sua casa (longitude e latitude). Com elas, qualquer um consegue identificar onde fica a sua casa (nesse contexto, a casa seria um objeto)
@@ -9,7 +16,7 @@ Porem, é quase impossível estourar a alocação de memoria de uma arquitetura 
 
 - 1 ExaByte equivale a 1.000.000.000.000.000.000 Bytes
 
-***
+# **Exemplo de código em C que demonstra o conceito de ponteiros e vetores (arrays)**
 
 ```c
 #include <stdio.h>
@@ -37,11 +44,11 @@ for (i = 0; i < vet; i++) {
 // Vet[4] = e ptr = e
 ```
 
-## Imagem que ilustra a alocação de um objeto em um endereço da memoria
+# **Imagem que ilustra a alocação de um objeto em um endereço da memoria**
 ![](https://www.codingame.com/servlet/fileservlet?id=41409364165150)
 
 
-# Arrays sao ponteiros?
+# Perguntas
 
 
 
