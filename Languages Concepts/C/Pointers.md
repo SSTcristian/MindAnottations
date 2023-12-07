@@ -62,14 +62,14 @@ https://c-faq.com/aryptr/index.html
 ## [Como uma variável é apontada para um ponteiro?](https://pt.stackoverflow.com/questions/91365/como-uma-vari%c3%a1vel-%c3%a9-apontada-para-um-ponteiro)
 
 ```c
-int array[42] = {42};
-int *ptr = a
+int array[5] = {1, 2, 3, 4, 5};
+int *ptr = array
 ```
 O valor de A é convertido para um ponteiro que aponta para o primeiro elemento do array
 
 Seria a mesma coisa se tivesse escrito desse jeito:
 ```c
-int *ptr = &(a[0]); // apontando para o primeiro elemento do vetor de 42 posições
+int *ptr = &(array[0]); // apontando para o primeiro elemento do vetor de 42 posições
 ```
 
 
