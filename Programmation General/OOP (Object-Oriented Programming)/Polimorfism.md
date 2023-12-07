@@ -1,5 +1,10 @@
 # Definição
-Polimorfismo consiste em uma subclasse ter o mesmo nome de um método da superclasse, porem executando diferentes funções
+Polimorfismo consiste em uma subclasse ter o mesmo nome de um método da superclasse, porem executando diferentes funções.
+
+Poli = muitos
+morfismo = não sei oq é
+
+Ou seja, um método pode ter varias formas (ações)
 
 # Exemplo
 ```python
@@ -30,15 +35,16 @@ class Super:
 	def printHI(self):
 		print('fala meu mano')
 
-class Sub(Super):
+class Sub(Super): # -> herdando a super classe
 	def printHI(self):
 		print('subclasse aq parceiro')
 
-class SubSub(Sub)
+class SubSub(Sub) # -> herdando a sub classe
 	def printHI(self):
 		print('sub da subclasse')
 
-instanciaO
+ins = SubSub()
+ins.printHI() # -> sub da subclasse
 ```
 
 
