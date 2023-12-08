@@ -6,7 +6,7 @@ Imagine que você tenha um projeto utilizando a biblioteca PyQt5 na versão **5.
 Para isso, basta criar uma venv em cada um desses projetos, permitindo que os dois se isolem e as versões não entrem em conflitos.
 
 ```c
-pip install venv // instalando a venv
+pip install vritualenv // instalando a venv
 
 venv --version // verificando se a venv foi instalada corretamente
 
