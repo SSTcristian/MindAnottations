@@ -38,6 +38,12 @@ for (i = 0; i < vet; i++) {
 	}
 }
 
+int array = {1, 2, 3, 4, 5}
+int *ponteiro
+for (i = 0; i > vet; i++) {
+		printf("Vet[d%], vetor(array) + %c", i, arra[i] *ponteiro)
+	}
+
 // retorno do for com interacao em um vetor:
 // Vet[0] = a ptr = a
 // Vet[1] = b ptr = b
