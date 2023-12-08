@@ -29,7 +29,8 @@ int main() {
 
  ptr = vet;  // A variavel ponteiro ptr aponta para o primeiro elemento do vetor
 
-// o ponteiro ptr pode ser utilizado para manipular o vetor 'vet', seja fazendo uma iteracao em cima dele ou manipulando seus elementos
+// o ponteiro ptr pode ser utilizado para manipular o vetor 'vet', 
+// seja fazendo uma iteracao em cima dele ou manipulando seus elementos
 
 for (i = 0; i < vet; i++) {
 	  printf("\nVet[%d] = %c ptr = %c", i, vet[i], *ptr);
