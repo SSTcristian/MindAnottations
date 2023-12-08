@@ -1,0 +1,1 @@
+Uma venv nada mais é do que um ambiente virtual isolado. E
