@@ -50,8 +50,41 @@ print(matriz[1][2]) # irá retornar o numero 6
 # Manipulando as listas (array) em python
 
 ## Inserindo Elemento
-Para inserir elemento em uma lista ja criada, basta utilizar o metodo **lista.append(elemento)**
+Para inserir elemento em uma lista já criada, basta utilizar o método **lista.append(elemento)**
 
+```python
+lista = [2, 4, 6, 8, 10]
+print(lista) # [2, 4, 6, 8, 10]
+
+lista.append(12)
+
+print(lista) # [2, 4, 6, 8, 10, 12]
+```
+
+
+## Removendo Elementos na Lista
+Para remover um elemento em uma lista, é só utilizar o método **remove()**
+
+```python
+xpto = [10, 2, 2008]
+print(xpto) # [10, 2, 2008]
+
+xpto.remove(2008)
+
+print(xpto) # [10, 2]
+```
+
+
+## Cortar (ou dividir) as listas
+Ha duas formas de dividir as listas no python: usando dc
+## Tamanho da Lista
+O método **len()** retornará o tamanho da lista
+
+```python
+lst = [1, 2]
+
+print(len(lst)) # -> 1
+```
 
 # Links
 https://kenzie.com.br/blog/o-que-array/#:~:text=programação%2C%20um%20dado.-,Como%20funciona%20um%20array%3F,pelo%20número%2C%20denominado%20como%20índice
