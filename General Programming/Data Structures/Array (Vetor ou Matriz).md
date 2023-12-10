@@ -1,8 +1,8 @@
 Array é uma estrutura de dados simples, usado para armazenar valores num espaço continuo da memoria. 
 
-Em python, os arrays são chamados de listas. Nela, pode-se armazenar vários tipos de dados (int, string, booleano e etc.), porem isso não eh recomendado justamente pela linearidade de memoria
+Em python, os arrays são chamados de listas. Nela, pode-se armazenar vários tipos de dados (int, string, booleano e etc.), porem isso não eh recomendado justamente pela **linearidade de memoria**
 
-- A linearidade de memoria permite que o array seja armazenado de forma consecutivos na memoria, possibilitando que 
+- A linearidade de memoria permite que o array seja armazenado de forma consecutivos na memoria, permitindo um acesso mais rápido ao elemento, já que o processador ira conseguir identificar facilmente onde esta o próximo elemento pois estão todos armazenados sequencialmente
 
 Os arrays podem ser unidimensionais (vetor) ou bidimensionais (matriz).
 
@@ -20,4 +20,15 @@ print(vetor[0]) # acessando o indice 0 do vetor, ira retornar o valor 1
 ```
 
 # Matriz (Array Bidimensional)
-As matrizes são arrays que contem linhas e colunas
+As matrizes sao arrays bidimensionais, com elementos organizados em linhas e colunas.  Para criar uma matriz, eh so declarar um vetor, porem varias vezes :))))
+
+```python
+matriz: int = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9]
+]
+	
+print(matriz)
+#
+```
