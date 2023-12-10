@@ -1,4 +1,8 @@
-Array é uma estrutura de dados simples, usado para armazenar valores num espaço continuo da memoria. Normalmente, ele permite armazenar apenas um único tipo de dado (se for int, não poderá conter string - salvo em JavaScript, mas essa lang é toda estranha e msm assim eu amo)
+Array é uma estrutura de dados simples, usado para armazenar valores num espaço continuo da memoria. 
+
+Em python, os arrays são chamados de listas. Nela, pode-se armazenar vários tipos de dados (int, string, booleano e etc.), porem isso não eh recomendado justamente pela linearidade de memoria
+
+- A linearidade de memoria permite que o array seja armazenado de forma consecutivos na memoria, possibilitando que 
 
 Os arrays podem ser unidimensionais (vetor) ou bidimensionais (matriz).
 
