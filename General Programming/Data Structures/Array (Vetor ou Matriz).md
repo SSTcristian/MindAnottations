@@ -20,7 +20,7 @@ print(vetor[0]) # acessando o indice 0 do vetor, ira retornar o valor 1
 ```
 
 # Matriz (Array Bidimensional)
-As matrizes sao arrays bidimensionais, com elementos organizados em linhas e colunas.  Para criar uma matriz, eh so declarar um vetor, porem varias vezes :))))
+As matrizes são arrays bidimensionais, com elementos organizados em linhas e colunas.  Para criar uma matriz, eh so declarar um vetor, porem varias vezes :))))
 
 ```python
 matriz: int = [
@@ -29,6 +29,12 @@ matriz: int = [
 	[7, 8, 9]
 ]
 	
-print(matriz)
-#
+print(matriz) # -> [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+
+Se eu quiser pegar um determinado valor na matriz, eh so especificar a linha e a coluna entre colchetes:
+
+```python
+print(matriz[0][1]) 
+# o primeiro eh a linha e o segundo eh a coluna (matriz[linha][coluna])
 ```
