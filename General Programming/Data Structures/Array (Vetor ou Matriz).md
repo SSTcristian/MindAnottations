@@ -76,7 +76,27 @@ print(xpto) # [10, 2]
 
 
 ## Cortar (ou dividir) as listas
-Ha duas formas de dividir as listas no python: usando dc
+Há duas formas de dividir as listas no python: usando colchetes ou o método **slice(intervalo)**
+
+```python
+naoAguentoMaisEscreverLista = ['socorro', 'aaaaa', 'nao aguento mais']
+print(naoAguentoMaisEscreverLista) # ['socorro', 'aaaaa', 'nao aguento mais']
+
+print(naoAguentoMaisEscreverLista[0:2])
+# nesse print, ira cortar a lista da posicao 0 ate a 2
+# o ['socorro', 'aaaaa']
+
+print(naoAguentoMaisEscreverLista[0:1])
+# cortando do indice 0 ate o 1
+# ['socorro']
+
+sliceMethod = slice(1, 2)
+print(naoAguentoMaisEscreverLista[sliceMethod])
+# mesma coisa dos colchetes, mas esse eh utilizando o metodo slice()
+# output: 
+
+```
+
 ## Tamanho da Lista
 O método **len()** retornará o tamanho da lista
 
