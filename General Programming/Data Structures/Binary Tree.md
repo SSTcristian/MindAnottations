@@ -33,8 +33,14 @@ print('Arvore: ', raiz)
 O nodo raiz 3 possui dois filhos, na esquerda (com o valor 5) e o outro na direita (com o valor 1)
 
 
-# Binary Search Tress
-A Arvore de Busca Binaria sao arvores cujos os nodes sao organizados de acordo co
+# Binary Search Tress (BST)
+Arvores de Busca Binaria são arvores cujos os nodes são organizados de acordo com alguma preferencia
+
+Seja **x** um node em uma árvore binária de pesquisa. Se **y** é um nodo na sub-árvore esquerda de **x**, então **y.chave** ≤ **x.chave**.  Se **y** é um nodo na sub-árvore direita de **x**, então **y.chave** ≥ **x.chave**.
+
+Em outras palavras, em um nodo qualquer, todos os nodes na esquerda dele são menores OU iguais a ele. Todos os nodes na direita são maiores ou iguais a ele.
+
+
 
 # Links
 https://algoritmosempython.com.br/cursos/algoritmos-python/estruturas-dados/arvores/
