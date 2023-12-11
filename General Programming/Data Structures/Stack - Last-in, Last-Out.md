@@ -6,7 +6,6 @@ Uma pilha permite acesso apenas ao ultimo elemento. Se desejar acessar o penúlt
 
 ![](https://miro.medium.com/v2/resize:fit:620/1*iywaX2ID2cwfI6lYMfjm5Q.png)
 
-# Exemplo
 Usar a lista em python como pilha se torna muito fácil, pois ela já possui métodos que ajudam nisso
 
 ```python

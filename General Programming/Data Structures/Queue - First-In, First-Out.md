@@ -8,15 +8,18 @@ Pensando nisso, o python possui uma classe chamada **collections.deque**, onde f
 
 ```python
 from collections import deque
-queue = deque(["Eric", "John", "Michael"]) # criando uma litsa
-queue.append("Terry")           # Terry arrives
-queue.append("Graham")          # Graham arrives
-queue.popleft()                 # The first to arrive now leaves
-'Eric'
-queue.popleft()                 # The second to arrive now leaves
-'John'
-queue                           # Remaining queue in order of arrival
-deque(['Michael', 'Terry', 'Graham'])
+queue = deque(["Agostinho Carrara", "Neo do Matrix", "Caneta Azul"]
+
+queue.append("Cristian") # inserindo 'Cristian' na lista
+queue.append("Santos")
+
+queue.popleft() # Indicando que o primeiro a ser inserido, vai ser o primeiro a sair (ou seja, o Agostinho Carrara)
+
+queue.popleft() # O segundo a ser inserido vai ser removido - o Neo do Matrix :/
+
+print(queue) 
+# Imprimindo a lista em ordem de chegada
+# output: deque(['Caneta Azul', 'Cristian', 'Santos'])
 ```
 
 
