@@ -4,7 +4,7 @@ Imagine uma louça que tem prato um em cima do outro. O ultimo prato colocado va
 
 Uma pilha permite acesso apenas ao ultimo elemento. Se desejar acessar o penúltimo, deve-se retirar o ultimo primeiro.
 
-![](Pasted%20image%2020231210214329.png)
+![](https://miro.medium.com/v2/resize:fit:620/1*iywaX2ID2cwfI6lYMfjm5Q.png)
 
 # Exemplo
 Usar a lista em python como pilha se torna muito fácil, pois ela já possui métodos que ajudam nisso
