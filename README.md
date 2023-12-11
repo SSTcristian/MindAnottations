@@ -4,12 +4,15 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 ainda está em processo de atualizações e provavelmente vai ficar assim para sempre
 
 # Files
-## [General Programming](#General%20Programming)
+## General Programming
 ##### Big O Notation
 - [Explanation, Example and Links](Explanation,%20Example%20and%20Links.md)
 
-##### [[Da]]
-- [Explanation](Explanation.md)
+##### Data Structures
+- [Array (Vetor ou Matriz)](Array%20(Vetor%20ou%20Matriz).md)
+- [Stack - Last-In, Last-Out](Stack%20-%20Last-In,%20Last-Out.md)
+- [Queue - First-In, First-Out](Queue%20-%20First-In,%20First-Out.md)
+- [Binary Tree](Binary%20Tree.md)
 
 ##### Logaritm
 - [Defination & Exemplos](Defination%20&%20Exemplos.md)
