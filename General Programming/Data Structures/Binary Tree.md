@@ -34,6 +34,7 @@ O nodo raiz 3 possui dois filhos, na esquerda (com o valor 5) e o outro na direi
 
 
 # Binary Search Tress
+A Arvore de Busca Binaria sao arvores cujos os nodes sao organizados de acordo co
 
 # Links
 https://algoritmosempython.com.br/cursos/algoritmos-python/estruturas-dados/arvores/
