@@ -11,7 +11,6 @@ ainda está em processo de atualizações e provavelmente vai ficar assim para s
 ##### Data Structures:
 - [Explanation](Explanation.md)
 
-
 ##### Logaritm
 - [Defination & Exemplos](Defination%20&%20Exemplos.md)
 
@@ -30,14 +29,15 @@ ainda está em processo de atualizações e provavelmente vai ficar assim para s
 - [Explanation & Examples](Explanation%20&%20Examples.md)
 
 
-<h2> Components of PC </h2>
+### Components of PC
 - [Hardware Architecture](Hardware%20Architecture.md)
 
 
-<h2>Language Concepts </h2>
-<h5>C </h5>
+### Language Concepts
+
+##### C
 - [Pointers](Pointers.md)
 
-<h5>Python </h5>
+##### Python
 - [Venv](Venv.md)
 - [Regular Expressions](Regular%20Expressions.md)
