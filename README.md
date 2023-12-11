@@ -4,11 +4,11 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 ainda está em processo de atualizações e provavelmente vai ficar assim para sempre
 
 # Files
-## General Programming
+## [General Programming](#General%20Programming)
 ##### Big O Notation
 - [Explanation, Example and Links](Explanation,%20Example%20and%20Links.md)
 
-##### []Data Structures:
+##### [[Da]]
 - [Explanation](Explanation.md)
 
 ##### Logaritm
