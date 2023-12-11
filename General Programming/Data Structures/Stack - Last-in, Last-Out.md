@@ -4,10 +4,10 @@ Imagine uma louça que tem prato um em cima do outro. O ultimo prato colocado va
 
 Uma pilha permite acesso apenas ao ultimo elemento. Se desejar acessar o penúltimo, deve-se retirar o ultimo primeiro.
 
-![](Pasted%20image%2020231210212730.png)
+![](Pasted%20image%2020231210214329.png)
 
 # Exemplo
-Usar a lista em python como pilha se torna muito fácil, pois a mesma lista já tem métodos que ajudam nisso
+Usar a lista em python como pilha se torna muito fácil, pois ela já possui métodos que ajudam nisso
 
 ```python
 stack: int = [3, 4, 5] # definindo uma lista com o nome 'stack' e atribuindo inteiros
