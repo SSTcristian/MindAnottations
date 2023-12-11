@@ -2,7 +2,7 @@
 
 A partir da Arvore Binaria, é possível utilizar o algoritmo BST (Binary Search Trees - Arvore de Busca Binaria), podendo estruturar os nodes com maior valor na esquerda da raiz e o nodes com menor valor na direita da raiz.
 
-A raiz da arvore é representada no node 0 e está no topo da hierarquia. Um node pode ter pais, filhos e irmãos. A raiz nao pode ter pais, porem o restante pode ter pais, filhos e irmaos. A arvore pode possuir no máximo 2 nodes a partir da raiz. 
+A raiz da arvore é representada no node 0 e está no topo da hierarquia. A raiz nao pode ter pais, porem o restante pode ter pais, filhos e irmaos. A arvore pode possuir no máximo 2 nodes a partir da raiz. 
 
 ![](https://algoritmosempython.com.br/images/algoritmos-python/estruturas-dados/ArvoreBinaria.png)
 
