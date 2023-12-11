@@ -28,7 +28,7 @@ print('Arvore: ', raiz)
 
 
 ![](https://algoritmosempython.com.br/images/algoritmos-python/estruturas-dados/ArvoreBinariaRepresentacao.png)
-(Imagem que representa a arvore binaria implementada no codigo)
+(Imagem que representa a arvore binaria implementada no código)
 
 O nodo raiz 3 possui dois filhos, na esquerda (com o valor 5) e o outro na direita (com o valor 1)
 

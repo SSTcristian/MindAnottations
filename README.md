@@ -8,7 +8,7 @@ ainda está em processo de atualizações e provavelmente vai ficar assim para s
 ##### Big O Notation
 - [Explanation, Example and Links](Explanation,%20Example%20and%20Links.md)
 
-##### Data Structures:
+##### []Data Structures:
 - [Explanation](Explanation.md)
 
 ##### Logaritm
