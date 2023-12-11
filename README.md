@@ -4,7 +4,7 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 ainda está em processo de atualizações e provavelmente vai ficar assim para sempre
 
 # Files
-### General Programming
+## General Programming
 ##### Big O Notation
 - [Explanation, Example and Links](Explanation,%20Example%20and%20Links.md)
 
@@ -29,11 +29,11 @@ ainda está em processo de atualizações e provavelmente vai ficar assim para s
 - [Explanation & Examples](Explanation%20&%20Examples.md)
 
 
-### Components of PC
+## Components of PC
 - [Hardware Architecture](Hardware%20Architecture.md)
 
 
-### Language Concepts
+## Language Concepts
 
 ##### C
 - [Pointers](Pointers.md)
