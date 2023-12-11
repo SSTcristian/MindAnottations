@@ -5,3 +5,12 @@ Imagine uma louça que tem prato um em cima do outro. O ultimo prato colocado va
 Uma pilha permite acesso apenas ao ultimo elemento. Se desejar acessar o penúltimo, deve-se retirar o ultimo primeiro.
 
 ![](Pasted%20image%2020231210212730.png)
+
+# Exemplo
+Usar a lista em python como pilha se torna muito facil, pois a mesma li
+
+# Links
+
+https://docs.python.org/pt-br/3.7/tutorial/datastructures.html#using-lists-as-stacks
+
+https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html#:~:text=São%20estruturas%20de%20dados%20do,deve-se%20remover%20o%20último.
