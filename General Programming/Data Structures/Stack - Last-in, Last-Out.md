@@ -30,4 +30,6 @@ Nesse exemplo, foi possível ver que apenas os últimos elementos adicionados na
 
 https://docs.python.org/pt-br/3.7/tutorial/datastructures.html#using-lists-as-stacks
 
-https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html#:~:text=São%20estruturas%20de%20dados%20do,deve-se%20remover%20o%20último.
+https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html#:~:text=São%20estruturas%20de%20dados%20do,deve-se%20remover%20o%20último
+
+https://algoritmosempython.com.br/cursos/algoritmos-python/estruturas-dados/pilhas/
