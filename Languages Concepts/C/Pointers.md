@@ -23,19 +23,25 @@ Porem, é quase impossível estourar a alocação de memoria de uma arquitetura 
 #include <stdio.h>
 
 int main() {
-	char *ptr; // criando um ponteiro que pode armazenar o endereco de memoria de uma variavel do tipo 'char'
-	 int i;
-	 char vet[5] = {'a', 'b', 'c', 'd', 'e'}; // criando um vetor do tipo 'char' que contem 5 elementos
-
- ptr = vet;  // A variavel ponteiro ptr aponta para o primeiro elemento do vetor
-
-// o ponteiro ptr pode ser utilizado para manipular o vetor 'vet', 
-// seja fazendo uma iteracao em cima dele ou manipulando seus elementos
-
-for (i = 0; i < vet; i++) {
-	  printf("\nVet[%d] = %c ptr = %c", i, vet[i], *ptr);
-	  ptr++;
-	}
+    char *ptr; 
+	// criando um ponteiro que pode armazenar o endereco de memoria de uma variavel do tipo 'char'
+	
+    int i;
+    char vet[5] = {'a', 'b', 'c', 'd', 'e'};
+    // criando um vetor do tipo 'char' que contem 5 elementos
+    
+    ptr = vet;
+    // A variavel ponteiro ptr aponta para o primeiro elemento do vetor
+    
+	// o ponteiro ptr pode ser utilizado para manipular o vetor 'vet', 
+	// seja fazendo uma iteracao em cima dele ou manipulando seus elementos
+	
+    for (i = 0; i < sizeof(vet) / sizeof(vet[0]); i++) {
+        printf("\nVet[%d] = %c ptr = %c", i, vet[i], *ptr);
+        ptr++;
+    }
+    
+    return 0;
 }
 
 // retorno do for com interacao em um vetor:
