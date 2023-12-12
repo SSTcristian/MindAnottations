@@ -27,8 +27,23 @@ print(multiply(2, 5)) # output: 10
 
 Embora da pra se utilizar as lambdas assim, é mais comum ela ser utilizada em conjunto com os métodos **map**, **filter** e **reduce**.
 
-```
-listEvenNumbers = [2, 4, 6, 8, 10]
+### MAP
+```python
+listNumbers = [1, 3, 2, 4, 6, 8, 10, 11, 12]
 
-filterEvens
+quadratic = list(map(lambda x: x** 2, listNumbers))
+#filtrando todos os numeros pares na lista
+
+print(quadratic)
+# [1, 9, 4, 16, 36, 64, 100, 121, 144]
+```
+## Lambda com Filter
+```python
+listNumbers = [1, 3, 2, 4, 6, 8, 10, 11, 12]
+
+filterEvens = list(filter(lambda x: x % 2 == 0, listNumbers))
+#filtrando todos os numeros pares na lista
+
+print(filterEvens)
+# [2, 4, 6, 8, 10, 12]
 ```
