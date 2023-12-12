@@ -56,4 +56,14 @@ for i in range(0, 3):
 
 
 ## Acessando os elementos de uma tupla
+Acessar os elementos de uma tupla eh bem parecido com os metodos na lista, basta passar o valor entre colchetes
 
+```python
+tuplaaaa = ('Cristian', 'Santos')
+
+print(tupla)
+# ('Cristian', 'Santos')
+
+print(tupla[0])
+# ('Cristian')
+```

@@ -21,7 +21,7 @@ print(vetor[0]) # acessando o indice 0 do vetor, irá retornar o valor 1
 
 
 # Matriz (Array Bidimensional)
-As matrizes são arrays bidimensionais, com elementos organizados em linhas e colunas.  Para criar uma matriz, é só declarar um vetor, porem varias vezes :))))
+As matrizes são arrays bidimensionais, com elementos organizados em linhas e colunas.  Como declaro uma matriz? Se vira ai otario
 
 ```python
 matriz: int = [
@@ -47,9 +47,6 @@ print(matriz[1][2]) # irá retornar o numero 6
 ```
 
 No arquivo **[Lists](Lists.md)** , é possível ver mais exemplos sobre manipulação de listas.
-
-
-```
 
 # Links
 https://kenzie.com.br/blog/o-que-array/#:~:text=programação%2C%20um%20dado.-,Como%20funciona%20um%20array%3F,pelo%20número%2C%20denominado%20como%20índice
