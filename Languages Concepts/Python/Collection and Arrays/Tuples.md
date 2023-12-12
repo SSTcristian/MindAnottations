@@ -29,7 +29,13 @@ secondNested = ('nao aguento mais escrever socorro')
 finalNested = (firstNested, secondNested) 
 # juntando as duas tuplas
 
+
 print(finalNested) 
 # ((0, 1, 2, 3), 'nao aguento mais escrever socorro')
 ```
 
+Se quisermos, podemos interar dentro de um for e criar uma tupla la dentro tambem
+
+```python
+xptoTupla = ()
+```
