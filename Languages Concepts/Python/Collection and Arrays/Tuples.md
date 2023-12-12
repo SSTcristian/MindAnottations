@@ -1,6 +1,6 @@
 As tuplas são coleções de objetos (separados por virgulas). Ao contrario das listas, as tuplas são imutáveis. Elas permitem vários tipos de dados (ou seja, uma unica tupla pode conter strings, ints, booleanos e por ai vai).
 
-Embora seja possível fazer uma tupla conter apenas UM elemento, não é tão pratico pois teríamos que colocar uma virgula no final (exemplo [aqui](#Criando%20Tuplas))
+Embora seja possível fazer uma tupla conter apenas UM elemento, não é tão pratico pois teríamos que colocar uma virgula no final (exemplo [aqui](#^e642aa))
 
 ## Criando Tuplas
 
@@ -34,6 +34,8 @@ print(finalNested)
 # ((0, 1, 2, 3), 'nao aguento mais escrever socorro')
 ```
 
+^e642aa
+
 
 Se quisermos, podemos iterar dentro de um for e criar uma tupla lá dentro tambem
 
@@ -56,7 +58,7 @@ for i in range(0, 3):
 
 
 ## Acessando os elementos de uma tupla
-Acessar os elementos de uma tupla eh bem parecido com os metodos na lista, basta passar o valor entre colchetes
+Acessar os elementos de uma tupla eh bem parecido com os metodos na lista, basta passar o valor entre colchetes (salvo em caso que aja indexacao, declarando uma tupla na variavel) [[^ace]]
 
 ```python
 tuplaaaa = ('Cristian', 'Santos')
@@ -67,3 +69,4 @@ print(tupla)
 print(tupla[0])
 # ('Cristian')
 ```
+
