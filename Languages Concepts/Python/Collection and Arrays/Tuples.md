@@ -2,7 +2,7 @@ As tuplas são coleções de objetos (separados por virgulas). Ao contrario das 
 
 Embora seja possível fazer uma tupla conter apenas UM elemento, não é tão pratico pois teríamos que colocar uma virgula no final (exemplo [aqui](#^e642aa))
 
-## Criando Tuplas
+### Criando Tuplas
 
 ```python
 tupla = ('Cristian', 15, True) 
@@ -36,7 +36,6 @@ print(finalNested)
 
 ^e642aa
 
-
 Se quisermos, podemos iterar dentro de um for e criar uma tupla lá dentro tambem
 
 ```python
@@ -57,7 +56,7 @@ for i in range(0, 3):
 ```
 
 
-## Acessando os elementos de uma tupla
+### Acessando os elementos de uma tupla
 Acessar os elementos de uma tupla é bem parecido com os métodos na lista, basta passar o valor entre colchetes ([salvo em caso que aja indexação, declarando uma tupla na variável](#^d26c9a))
 
 ```python
@@ -99,16 +98,25 @@ Complexidades para acessar os elementos numa tupla:
 **complexidade de espaço:** O(1) - constante
 
 
-## Concatenação de Tuplas
+### Concatenação de Tuplas
 É o processo de unir duas OU mais tuplas, feito com o operador **+**.
 
 Só haverá concatenação com os mesmos tipos de dados. Se tentar juntar uma tupla e uma lista, ocorrera um erro
 
 ```python
 tupla1 = (0, 1, 2, 3)
-tupla2 = ('')
+tupla2 = ('Cristian', 'Santos')
+
+concat = tupla1 + tupla2
+
+print(concat)
+# (0, 1, 2, 3, 'Cristian', 'Santos')
 ```
 
+### Cortando/Fatiando Tuplas
 
 
 
+# Links
+
+https://www.geeksforgeeks.org/python-tuples/

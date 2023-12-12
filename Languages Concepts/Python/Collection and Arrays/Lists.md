@@ -9,7 +9,7 @@ print(names) # ['Caneta Azul', 'Ben 10']
 As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração
 
 # Manipulando as listas (array) em python
-## Inserindo Elemento
+### Inserindo Elemento
 Para inserir elemento em uma lista já criada, basta utilizar o método **lista.append(elemento)**
 
 ```python
@@ -22,7 +22,7 @@ print(lista) # [2, 4, 6, 8, 10, 12]
 ```
 
 
-## Removendo Elementos na Lista
+### Removendo Elementos na Lista
 Para remover um elemento em uma lista, é só utilizar o método **remove()**
 
 ```python
@@ -35,7 +35,7 @@ print(xpto) # [10, 2]
 ```
 
 
-## Cortar (ou dividir) as listas
+### Cortar (ou dividir) as listas
 Há duas formas de dividir as listas no python: usando colchetes ou o método **slice(intervalo)**
 
 ```python
@@ -61,7 +61,7 @@ print(naoAguentoMaisEscreverLista[sliceMethod])
 
 ```
 
-## Tamanho da Lista
+### Tamanho da Lista
 O método **len()** retornará o tamanho da lista
 
 ```python
