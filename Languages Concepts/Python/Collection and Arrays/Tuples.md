@@ -115,18 +115,35 @@ print(concat)
 
 ### Cortando/Fatiando Tuplas
 
-O fatiamento e feito para buscar intervalos muuuito específicos numa tupla - as vezes você quer saber se tal letra ou caractere tem numa tupla, ai você usa o fatiamento/slicing
+O fatiamento e feito para buscar intervalos muuuito específicos numa tupla - as vezes você quer saber se tal letra ou caractere tem numa tupla, ai você usa o fatiamento/slicing.
 
-Tambem ehh possivel fatiar elementos numa [lista](Lists.md)
+(tambem é possível fatiar elementos numa [lista](Lists.md))
 
 ![](Pasted%20image%2020231212192221.png)
 
 
 ```python
-tupla1 = tuple('aaaaaaaaaaaa')
+tupla1 = tuple('CristianSantos')
 
+print(tuple1[1:])
+# removendo apenas o primeiro elemento (no caso o C)
+# ('r', 'i', 's', 't', 'i', 'a', 'n', 'S', 'a', 'n', 't', 'o', 's')
 
+print(tuple1[::-1])
+# revertendo a tupla
+# ('s', 'o', 't', 'n', 'a', 'S', 'n', 'a', 'i', 't', 's', 'i', 'r', 'C')
+
+print(tupla1[3:8])
+# pegando apenas o elementos entre a faixa 3 e 8
+# ('s', 't', 'i', 'a', 'n')
 ```
+
+Complexidades para elementos de travessia/pesquisa em tuplas:
+
+**Complexidade de tempo:** O(1)
+**Complexidade do espaço:** O(1)
+
+
 # Links
 
 https://www.geeksforgeeks.org/python-tuples/
