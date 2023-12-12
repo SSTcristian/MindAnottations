@@ -49,6 +49,7 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Sets](Sets.md)
 - [Tuples](Tuples.md)
 
-# Outros
+### Outros
 - [Venv](Venv.md)
 - [Regular Expressions](Regular%20Expressions.md)
+- [[Lambda](Lambda.md)]
