@@ -58,7 +58,7 @@ for i in range(0, 3):
 
 
 ## Acessando os elementos de uma tupla
-Acessar os elementos de uma tupla eh bem parecido com os metodos na lista, basta passar o valor entre colchetes (salvo em caso que aja indexacao, declarando uma tupla na variavel) [[^ace]]
+Acessar os elementos de uma tupla eh bem parecido com os métodos na lista, basta passar o valor entre colchetes ([salvo em caso que aja indexacao, declarando uma tupla na variavel](#^d26c9a))
 
 ```python
 tuplaaaa = ('Cristian', 'Santos')
@@ -70,3 +70,14 @@ print(tupla[0])
 # ('Cristian')
 ```
 
+Tuplas com indexacoes e descompactadas:
+
+```python
+pq_eu_to_fazendo_isso = tuple('abcde')
+
+print(pq_eu_to_fazendo_isso[0])
+# output: a
+# nesse caso, o 0 esta pegando a primeira letra da tupla
+
+
+```
