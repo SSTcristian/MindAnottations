@@ -23,9 +23,9 @@ Porem, é quase impossível estourar a alocação de memoria de uma arquitetura 
 #include <stdio.h>
 
 int main() {
- char *ptr; // criando um ponteiro que pode armazenar o endereco de memoria de uma variavel do tipo 'char'
- int i;
- char vet[5] = {'a', 'b', 'c', 'd', 'e'}; // criando um vetor do tipo 'char' que contem 5 elementos
+	char *ptr; // criando um ponteiro que pode armazenar o endereco de memoria de uma variavel do tipo 'char'
+	 int i;
+	 char vet[5] = {'a', 'b', 'c', 'd', 'e'}; // criando um vetor do tipo 'char' que contem 5 elementos
 
  ptr = vet;  // A variavel ponteiro ptr aponta para o primeiro elemento do vetor
 
