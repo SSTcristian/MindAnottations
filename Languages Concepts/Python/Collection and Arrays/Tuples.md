@@ -115,8 +115,18 @@ print(concat)
 
 ### Cortando/Fatiando Tuplas
 
+O fatiamento e feito para buscar intervalos muuuito específicos numa tupla - as vezes você quer saber se tal letra ou caractere tem numa tupla, ai você usa o fatiamento/slicing
+
+Tambem ehh possivel fatiar elementos numa [lista](Lists.md)
+
+![](Pasted%20image%2020231212192221.png)
 
 
+```python
+tupla1 = tuple('aaaaaaaaaaaa')
+
+
+```
 # Links
 
 https://www.geeksforgeeks.org/python-tuples/
