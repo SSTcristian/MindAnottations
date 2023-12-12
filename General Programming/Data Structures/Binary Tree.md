@@ -32,7 +32,6 @@ print('Arvore: ', raiz)
 
 O nodo raiz 3 possui dois filhos, na esquerda (com o valor 5) e o outro na direita (com o valor 1)
 
-
 # Binary Search Tress (BST)
 Arvores de Busca Binaria são arvores cujos os nodes são organizados de acordo com alguma preferencia
 
