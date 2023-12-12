@@ -20,7 +20,7 @@ print(dictionary) # {1: '12', 2: '12', 3: '2023'}
 ```
 
 
-Tambem ehh possivel criar dicionarios com diferentes valores:
+Tambem ehh possível criar dicionarios com diferentes valores:
 
 ```python
 dicionarioA = {'Abc': 'Def', 1: [1, 2, 3, 4]}
@@ -29,4 +29,4 @@ print(dicionarioA) # {'Abc': 'Def', 1: [1, 2, 3, 4]}
 
 ```
 
-# Dicionários aninhados
+
