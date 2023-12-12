@@ -13,7 +13,7 @@ print(firstSet)
 Justamente pelos **sets** NAO serem ordenados que nao conseguimos saber em que ordem os elementos são armazenados na memoria.
 
 
-##### Mudando o valor de um set
+
 Os sets são imutáveis, o que significa que uma vez declarado, nao podemos mudar o valor. Caso mesmo assim tentarmos muda-lo, ira ocorrer um erro de **TypeError**.
 
 ```python
@@ -29,8 +29,8 @@ print(outroSet)
 ```
 
 
-##### Armazenando dados
-Os sets podem armazenar muitos tipos de dados de uma só vez:
+
+Eles tambem podem armazenar muitos tipos de dados de uma só vez:
 
 ```python
 abcSet = {"Cristian", "Santos", 12, 12, True}
@@ -38,3 +38,6 @@ abcSet = {"Cristian", "Santos", 12, 12, True}
 print(abcSet)
 # {True, 'Santos', 12, 'Cristian'}
 ```
+
+
+# Sets Congelados

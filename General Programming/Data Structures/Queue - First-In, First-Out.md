@@ -19,7 +19,7 @@ queue.append("Santos")
 
 queue.popleft() # Indicando que o primeiro a ser inserido, vai ser o primeiro a sair (ou seja, o Agostinho Carrara)
 
-queue.popleft() # O segundo a ser inserido vai ser removido - o Neo do Matrix :/
+queue.popleft() # O segundo a ser inserido vai ser removido - infelizmente o Neo do Matrix
 
 print(queue) 
 # Imprimindo a lista em ordem de chegada

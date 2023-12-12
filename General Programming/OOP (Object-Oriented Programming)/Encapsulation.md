@@ -78,6 +78,7 @@ def __init__(self, nome, cargo, valorHora):
 		self.__salario = self.__horas_trabalhadas * self.valor_hora_trabalhada
 ```
 
+
 Agora, se tentarmos alterar o salario, ira retornar uma mensagem de erro
 
 ```python
@@ -98,4 +99,5 @@ ValueError: Impossivel alterar salario diretamente. Use a funcao calcula_salario
 # Links
 
 https://algoritmosempython.com.br/cursos/programacao-python/encapsulamento/
+
 https://cursos.alura.com.br/forum/topico-o-que-o-metaclass-abcmeta-faz-184749
