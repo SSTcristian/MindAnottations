@@ -14,18 +14,18 @@ Justamente pelos **sets** NAO serem ordenados que nao conseguimos saber em que o
 
 
 
-Os sets são imutáveis, o que significa que uma vez declarado, nao podemos mudar o valor. Caso mesmo assim tentarmos muda-lo, ira ocorrer um erro de **TypeError**.
+Os sets são mutáveis, basta passar o método **.add(elemento)** para adicionar um valor
 
 ```python
-outroSet = {'Barbie', 'Ken', 'Sla'}
+outroSet = {'Barbie', 'Ken', 'Batman'}
+print(outroSet) # {'Ken', 'Barbie', 'Batman'}
 
-outroSet[1] = "Ben 10"
-print(outroSet)
 
-# ERROR!
-# Traceback (most recent call last):
-#   File "<string>", line 3, in <module>
-# TypeError: 'set' object does not support item assignment
+outroSet.add('Caneta Azul')
+
+
+print(outroSet) # {'Ken', 'Caneta Azul', 'Batman', 'Barbie'}
+
 ```
 
 
@@ -40,4 +40,6 @@ print(abcSet)
 ```
 
 
-# Sets Congelados
+# Sets congelados
+
+Os sets congelados (**frozen sets**) sao imutaveis, sendo essa a principal diferenca dos sets normais. Uma vez criados, 
