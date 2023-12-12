@@ -37,5 +37,20 @@ print(finalNested)
 Se quisermos, podemos interar dentro de um for e criar uma tupla la dentro tambem
 
 ```python
-xptoTupla = ()
+from datetime import datetime
+
+xptoTupla: tuple = (datetime.now().date())
+
+print('Tupla com um loop')
+for i in range(0, 3):
+	xptoTupla = (xptoTupla, )
+    print(xptoTupla)
+
+# output:
+# Tupla com um loop
+# ('Geeks',)
+# (('Geeks',),)
+# ((('Geeks',),),)
+# (((('Geeks',),),),)
+# ((((('Geeks',),),),),)
 ```
