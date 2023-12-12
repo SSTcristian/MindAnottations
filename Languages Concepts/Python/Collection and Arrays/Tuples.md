@@ -91,12 +91,24 @@ print(c)
 # ghi
 ```
 
+^d26c9a
+
 Complexidades para acessar os elementos numa tupla:
 
 **complexidade de tempo:** O(1) - constante
 **complexidade de espaço:** O(1) - constante
 
 
-## Concatenacao de Tuplas
+## Concatenação de Tuplas
+É o processo de unir duas OU mais tuplas, feito com o operador **+**.
+
+Só haverá concatenação com os mesmos tipos de dados. Se tentar juntar uma tupla e uma lista, ocorrera um erro
+
+```python
+tupla1 = (0, 1, 2, 3)
+tupla2 = ('')
+```
+
+
 
 
