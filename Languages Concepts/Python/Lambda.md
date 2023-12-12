@@ -21,14 +21,16 @@ multiply = lambda y, x: y * x
 print(multiply(2, 5)) # output: 10
 ```
 
+
 Os mesmos códigos funcionariam se as lambdas estivessem dentro de um print:
 ```python
 print((lambda x: x + 10)(10)) # 20
 
-print((lamda x, y: x * y), 5, 2) # 10
+print((lambda x, y: x * y)(5, 2)) # 10
 ```
 
-Embora da pra se utilizar as lambdas assim, é mais comum ela ser utilizada em conjunto com os métodos **map**, **filter** e **reduce**.
+
+Embora de pra se utilizar as lambdas assim, é mais comum ela ser utilizada em conjunto com os métodos **map**, **filter** e **reduce**.
 
 ### Map
 ```python
