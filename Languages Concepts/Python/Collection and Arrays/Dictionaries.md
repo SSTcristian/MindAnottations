@@ -34,24 +34,36 @@ A adicao de elementos a um dicionario pode ser feita de diversas maneiras:
 
 ```python
 emptyDict = {}
-print(Dict) # {}
+print(emptyDict) # {}
 
 emptyDict[0] = 'cara eu nao lembro o abecedario meuDeus'
 emptyDict[2] = 'abcde etc'
 emptyDict[3] = 1
 
-print(Dict)
+print(emptyDict)
+# {0: 'cara eu nao lembro o abecedario meuDeus', 2: 'abcde etc', 3: 1}
 
-Dict['Value_set'] = 2, 3, 4
-print("\nDictionary after adding 3 elements: ")
-print(Dict)
 
-Dict[2] = 'Welcome'
-print("\nUpdated key value: ")
-print(Dict)
-Dict[5] = {'Nested': {'1': 'Life', '2': 'Geeks'}}
-print("\nAdding a Nested Key: ")
-print(Dict)
+emptyDict['set_Value'] = 2, 3, 4
+print(emptyDict) # {'set_Value': (2, 3, 4)}
+
+
+
+emptyDict[2] = 'sem ideia pro q escrever'
+print(emptyDict)
+# {2: 'sem ideia pro q escrever'}
+
+
+
+emptyDict[5] = {'Aninhado': {'1': 'x', '2': 'y'}} 
+# adicionando uma chave aninhada
+
+print(emptyDict)
+# {5: {'Aninhado': {'1': 'x', '2': 'y'}}}
+
+
+# dict no final:
+# {0: 'cara eu nao lembro o abecedario meuDeus', 2: 'sem ideia pro q escrever', 3: 1, 'set_Value': (2, 3, 4), 5: {'Aninhado': {'1': 'x', '2': 'y'}}}
 
 ```
 
