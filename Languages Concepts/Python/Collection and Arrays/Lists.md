@@ -8,6 +8,8 @@ print(names) # ['Caneta Azul', 'Ben 10']
 
 As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração
 
+![](Pasted%20image%2020231212212340.png)
+
 # Manipulando as listas (array) em python
 ### Inserindo Elemento
 Para inserir elemento em uma lista já criada, basta utilizar o método **lista.append(elemento)**

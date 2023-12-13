@@ -30,7 +30,7 @@ print(dicionarioA) # {'Abc': 'Def', 1: [1, 2, 3, 4]}
 
 ## Adicionando elementos a um dict
 
-A adicao de elementos a um dicionario pode ser feita de diversas maneiras:
+A adição de elementos a um dicionário pode ser feita de diversas maneiras:
 
 ```python
 emptyDict = {}
@@ -67,3 +67,8 @@ print(emptyDict)
 
 ```
 
+
+
+# Links
+
+https://www.geeksforgeeks.org/python-dictionary/
