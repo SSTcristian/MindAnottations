@@ -1,5 +1,7 @@
 As expressões regulares (RegeEx) servem para buscar determinado padrão em alguma string. Por exemplo, posso usar elas para verificar se tal string corresponde a um gmail valido ou a um numero de celular correto.
 
+![](https://images.datacamp.com/image/upload/v1665049689/Regular_Expressions_Cheat_Sheet_b95aae6488.png)
+
 Em python, se faz uso do modulo **re** junto com o método **re.search()**:
 
 ```
@@ -43,9 +45,15 @@ print(bool(barraW))
 # são caracteres especiais, entao se dermos barraW.group() irá retornar apenas 'abcd')
 ```
 
-# Links
 
-https://developers.google.com/edu/python/regular-expressions?hl=pt-br
+# CheatSheets:
 
-CheatSheet:
+https://www.datacamp.com/cheat-sheet/regular-expresso (imagem do DataCamp lá em cima)
+
 https://developers.google.com/edu/python/regular-expressions?hl=pt-br#basic-patterns
+
+https://pythex.org/
+
+https://www.geeksforgeeks.org/python-regex-cheat-sheet/
+
+https://www.datacamp.com/cheat-sheet/regular-expresso
