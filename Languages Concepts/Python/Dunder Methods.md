@@ -12,4 +12,13 @@ print(dir(int)) # mostra quais metodos dunder a classe "int" herda
 ```
 
 
+Tbm é possível fazer isso abrindo o cmd do python e digitando **dir(int)**
 
+![](Pasted%20image%2020231215190531.png)
+
+
+# Exemplos
+
+# Links
+
+https://www.geeksforgeeks.org/dunder-magic-methods-python/
