@@ -2,7 +2,7 @@ os métodos dunder (ou métodos mágicos) se refere a métodos que começam e te
 
 Eles são usados para fornecer funções especiais as classes em python e são chamados por debaixo dos panos pelo interpretador
 
-Para vê-los, podemos passar a função **dir()**, sendo o parâmetro uma classe  para mostrar quais métodos dunder ela herda
+Para vê-los, podemos passar a função **dir()**, sendo o parâmetro uma classe para mostrar quais métodos dunder ela herda
 
 ```python
 print(dir(int)) # mostra quais metodos dunder a classe "int" herda
@@ -12,12 +12,29 @@ print(dir(int)) # mostra quais metodos dunder a classe "int" herda
 ```
 
 
-Tbm é possível fazer isso abrindo o cmd do python e digitando **dir(int)**
+Também é possível fazer isso abrindo o cmd do python e digitando **dir(int)**
 
 ![](Pasted%20image%2020231215190531.png)
 
 
 # Exemplos
+## **__repr__**
+Em resumo, esse método eh uma representação de sua classe, feito para mostrar os detalhes dela. **__repr__** é uma abreviação de **representation**
+
+```python
+class classeXpto:
+	def __init__(self, nome):
+		self.nome = nome
+		
+	def __repr(self):
+		return f'classeXpto({self.nome})'
+		
+	def __str__(self):
+		return f'Instancia da classe classeXpto - {self.nome}'
+
+print(classeXpto('Cristian'))
+print(repr(classeXpto('Cristian'))
+```
 
 # Links
 
