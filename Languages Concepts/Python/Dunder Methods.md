@@ -18,23 +18,30 @@ Também é possível fazer isso abrindo o cmd do python e digitando **dir(int)**
 
 
 # Exemplos
-## **__repr__**
-Em resumo, esse método eh uma representação de sua classe, feito para mostrar os detalhes dela. **__repr__** é uma abreviação de **representation**
+### **__repr__** e **__str__**
+Em resumo, o método **__repr__** eh uma representação de sua classe, feito para mostrar os detalhes dela. **__repr__** é uma abreviação de **representation**.
+
+Quanto ao **__str__**, ele tambem é uma representação da classe, porem ele é chamado automaticamente quando você da um print numa instancia.
+
+A principal diferenca 
 
 ```python
 class classeXpto:
 	def __init__(self, nome):
 		self.nome = nome
 		
-	def __repr(self):
+	def __repr__(self):
 		return f'classeXpto({self.nome})'
 		
 	def __str__(self):
 		return f'Instancia da classe classeXpto - {self.nome}'
 
-print(classeXpto('Cristian'))
-print(repr(classeXpto('Cristian'))
+print(classeXpto('Cristian')) # Instancia da classe classeXpto - Cristian
+print(repr(classeXpto('Cristian'))) # classeXpto(Cristian)
 ```
+
+Quando a classe nao tiver o metodo **__str__**, o interpretador irá pegar o método **__repr__**
+
 
 # Links
 
