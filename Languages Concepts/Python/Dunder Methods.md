@@ -23,7 +23,7 @@ Em resumo, o método **__repr__** eh uma representação de sua classe, feito pa
 
 Quanto ao **__str__**, ele tambem é uma representação da classe, porem ele é chamado automaticamente quando você da um print numa instancia.
 
-A principal diferenca 
+A principal diferença é que o **__str__** serve para ser uma representação mais legível do objeto, enquanto o **__repr__** seria uma mais detalhada "oficial" do objeto.
 
 ```python
 class classeXpto:
@@ -36,11 +36,12 @@ class classeXpto:
 	def __str__(self):
 		return f'Instancia da classe classeXpto - {self.nome}'
 
-print(classeXpto('Cristian')) # Instancia da classe classeXpto - Cristian
 print(repr(classeXpto('Cristian'))) # classeXpto(Cristian)
+
+print(classeXpto('Cristian')) # Instancia da classe classeXpto - Cristian
 ```
 
-Quando a classe nao tiver o metodo **__str__**, o interpretador irá pegar o método **__repr__**
+Quando a classe nao tiver o método **__str__**, o interpretador irá pegar o **__repr__**
 
 
 # Links
