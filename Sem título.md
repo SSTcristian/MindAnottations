@@ -1,0 +1,14 @@
+l
+()
+shift
+r
+n
+enter
+backspace
+i
+p
+x
+c
+b
+.
+0

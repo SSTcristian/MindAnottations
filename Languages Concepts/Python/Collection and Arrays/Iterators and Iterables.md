@@ -2,7 +2,17 @@ Um iterador é um objeto que pode ser iterado, ou seja, é possível percorrer t
 
 [Lists](Lists.md), [Tuples](Tuples.md), [Dictionaries](Dictionaries.md) e [Sets](Sets.md) são objetos iteráveis.
 
-Todos eles possuem um metodo chamado **iter()** que é usado para obte 
+Todos eles possuem um método chamado **iter()** que é usado para obter um iterador:
+
+```python
+tupla = ('Cristian', 'Santos', 'abc')
+
+it = iter(tupla)
+
+print(next(it)) # ('Cristian')
+print(next(it)) # ('Santos')
+print(next(it)) # ('abc')
+```
 
 
 
