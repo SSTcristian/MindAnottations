@@ -41,7 +41,7 @@ print(repr(classeXpto('Cristian'))) # classeXpto(Cristian)
 print(classeXpto('Cristian')) # Instancia da classe classeXpto - Cristian
 ```
 
-Quando a classe nao tiver o método **__str__**, o interpretador irá pegar o **__repr__**
+Quando a classe nao tiver o método **__str__**, o interpretador irá pegar o **__repr__**.
 
 
 # Links
