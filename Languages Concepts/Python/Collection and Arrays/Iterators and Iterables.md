@@ -7,14 +7,14 @@ Todos eles possuem um método chamado **iter()** que é usado para obter um iter
 ```python
 tupla = ('Cristian', 'Santos', 'abc')
 
-it = iter(tupla)
+it = iter(tupla) # iterador
 
 print(next(it)) # ('Cristian')
 print(next(it)) # ('Santos')
 print(next(it)) # ('abc')
 ```
 
-
+Nesse exemplo, toda vez que passamos o método **next()**, estamos dizendo para o python pegar o próximo objeto do iterador
 
 # Links
 https://realpython.com/python-iterators-iterables/#:~:text=Iterators%20power%20and%20control%20the,one%20value%20at%20a%20time
