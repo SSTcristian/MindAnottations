@@ -6,11 +6,11 @@ Um dicionário é uma coleção ordenada de valores-chaves, onde armazenam valor
 # Criação de dicionários
 O dicionário (como mostrado na imagem acima) é formado por pares de valores, onde o primeiro é a chave e o segundo é o valor:
 ```python
-dict_var = {chave1: valor1, chave2: valor2,…..}
+dict_var = {chave1: valor1, chave2: valor2,...}
 ```
 
 
-Para criar um dicionário, basta apenas seguir a sintaxe acima, porem mudar de acordo com a sua preferencia
+Para criar um dicionário, basta apenas seguir a sintaxe acima, porém mudar de acordo com a sua preferencia:
 
 ```python
 dictionary = {1: '12', 2: '12', 3: '2023'}
@@ -19,7 +19,7 @@ print(dictionary) # {1: '12', 2: '12', 3: '2023'}
 ```
 
 
-Tambem é possível criar dicionários com diferentes valores:
+Tambem é possível criar dicionários com diferentes tipos de dados:
 
 ```python
 dicionarioA = {'Abc': 'Def', 1: [1, 2, 3, 4]}
@@ -97,3 +97,5 @@ print(dic[1]) # acessando um elemento através da chave, retornando 'xpto'
 # Links
 
 https://www.geeksforgeeks.org/python-dictionary/
+
+https://www.edureka.co/blog/hash-tables-and-hashmaps-in-python/

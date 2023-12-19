@@ -1,0 +1,1 @@
+A recursão é o nome de  processo que ocorre quando uma função chama a si mesma para fazer determinada ação
