@@ -43,7 +43,7 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Pointers](Pointers.md)
 
 ### Python
-##### DS & Iterators
+##### DS (Data Structures) & Iterators
 - [Dictionaries](Dictionaries.md)
 - [Lists](Lists.md)
 - [Sets](Sets.md)
@@ -52,7 +52,11 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 
 ##### Virtual Environments
 - [Venv](Venv.md)
-### Outros
-- [Venv](
-- [Regular Expressions](Regular%20Expressions.md)
+##### Regular Expression
+- [RegeEx](RegeEx.md)
+
+##### Dunder Methods
+- [Dunder Methods](Dunder%20Methods.md)
+
+##### Lambda
 - [[Lambda](Lambda.md)]

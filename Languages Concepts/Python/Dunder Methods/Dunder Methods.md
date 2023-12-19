@@ -1,8 +1,8 @@
-os métodos dunder (ou métodos mágicos) se refere a métodos que começam e terminam com dois sublinhados (**__init__, __str___** e por ai vai)
+os métodos dunder (ou métodos mágicos) se refere a métodos que começam e terminam com dois sublinhados (**__init__, __str___** e por ai vai).
 
-Eles são usados para fornecer funções especiais as classes em python e são chamados por debaixo dos panos pelo interpretador
+Eles são usados para fornecer funções especiais as classes em python e são chamados por debaixo dos panos pelo interpretador.
 
-Para vê-los, podemos passar a função **dir()**, sendo o parâmetro uma classe para mostrar quais métodos dunder ela herda
+Para vê-los, podemos passar a função **dir()**, sendo o parâmetro uma classe para mostrar quais métodos dunder ela herda.
 
 ```python
 print(dir(int)) # mostra quais metodos dunder a classe "int" herda
@@ -23,7 +23,7 @@ Em resumo, o método **__repr__** eh uma representação de sua classe, feito pa
 
 Quanto ao **__str__**, ele tambem é uma representação da classe, porem ele é chamado automaticamente quando você da um print numa instancia.
 
-A principal diferença é que o **__str__** serve para ser uma representação mais legível do objeto, enquanto o **__repr__** seria uma mais detalhada "oficial" do objeto.
+A principal diferença é que o **__str__** serve para ser uma representação mais legível do objeto, enquanto o **__repr__** seria uma mais detalhada/"oficial" do objeto.
 
 ```python
 class classeXpto:
@@ -41,8 +41,7 @@ print(repr(classeXpto('Cristian'))) # classeXpto(Cristian)
 print(classeXpto('Cristian')) # Instancia da classe classeXpto - Cristian
 ```
 
-Quando a classe nao tiver o método **__str__**, o interpretador irá pegar o **__repr__**.
-
+Quando a classe não tiver o método **__str__**, o interpretador irá pegar o **__repr__**.
 
 # Links
 
