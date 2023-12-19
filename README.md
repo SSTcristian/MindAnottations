@@ -19,8 +19,8 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Defination & Exemplos](Defination%20&%20Exemplos.md)
 
 ##### Memory Alocation
-- [Contiguous (Contiguo)](Contiguous%20(Contiguo).md)
-- [Not Contiguous (Não Contiguo)](Not%20Contiguous%20(Não%20Contiguo).md)
+- [Contiguous](Contiguous.md)
+- [Not Contiguous](Not%20Contiguous.md)
 
 ##### OOP (Object-Oriented Programming)
 - [Inheritance](Inheritance.md)
@@ -43,13 +43,16 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Pointers](Pointers.md)
 
 ### Python
-##### Collection and Arrays
+##### DS & Iterators
 - [Dictionaries](Dictionaries.md)
 - [Lists](Lists.md)
 - [Sets](Sets.md)
 - [Tuples](Tuples.md)
+- [Itarables and Iterators](Itarables%20and%20Iterators.md)
 
-### Outros
+##### Virtual Environments
 - [Venv](Venv.md)
+### Outros
+- [Venv](
 - [Regular Expressions](Regular%20Expressions.md)
 - [[Lambda](Lambda.md)]

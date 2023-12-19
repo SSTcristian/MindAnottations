@@ -1,6 +1,5 @@
-Os iteraveis sao objetos que podem ser iterados, ou seja, é possível percorrer todos os valores contidos dentro desse objeto.
-
-[Lists](Lists.md), [Tuples](Tuples.md), [Dictionaries](Dictionaries.md), [Sets](Sets.md) e Strings são objetos iteráveis.
+# Itarables
+Os iteráveis são objetos que podem ser iterados, ou seja, é possível percorrer todos os valores contidos dentro desse objeto.
 
 o **for** é justamente pra isso, percorrer os elementos de um iterador:
 
@@ -21,9 +20,20 @@ for x in lst: # percorrendo todos os elementos
 Eu tambem poderia percorrer os elementos e no final passar um **print(x **2)** para elevar todos os números da lista ao quadrado:
 
 ```python
-print(x **)
+print(x ** 2)
+
+# 1
+# 4
+# 9
+# 16
+# 25
 ```
 
+
+# Iterators
+O iterador é um objeto usado para percorrer todos os objetos iteráveis.
+
+[Lists](Lists.md), [Tuples](Tuples.md), [Dictionaries](Dictionaries.md), [Sets](Sets.md) e Strings são objetos iteráveis.
 
 Todos eles possuem um método chamado **iter()** que é usado para obter um iterador:
 
