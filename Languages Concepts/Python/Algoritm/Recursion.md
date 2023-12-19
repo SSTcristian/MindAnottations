@@ -1,1 +1,1 @@
-A recursão é o nome de um processo que ocorre quando uma função chama a si mesma para fazer determinada ação. É uma técnica que permite tornar o codigo mais legivel e mais facil de atualiza-lo
+A recursão é o nome de um processo que ocorre quando uma função chama a si mesma para fazer determinada ação. É uma técnica que permite tornar o código mais legível e mais fácil de atualiza-lo
