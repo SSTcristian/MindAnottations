@@ -67,7 +67,32 @@ print(emptyDict)
 
 ```
 
+# Acessando Elementos
+Para acessar um elemento num dicionário, podemos passar tanto a key entre colchetes ou [iterando](Itarables%20and%20Iterators.md) com um for:
 
+```python
+dic = {1: 'xpto', 2: 'abc'}
+
+for x in dic: # iterando apenas sobre as chaves
+	print(x)
+	# output:
+	# 1
+	# 2
+
+for y in dic.items(): # percorrendo os itens
+	print(y)
+	# output:
+	# (1, 'xpto')
+	# (2, 'abc')
+
+for z in dic.values(): # percorrendo os valores do dict
+	print(z)
+	# output:
+	# xpto
+	# abc
+
+print(dic[1]) # acessando um elemento através da chave, retornando 'xpto'
+```
 
 # Links
 
