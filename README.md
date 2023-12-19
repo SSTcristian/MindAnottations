@@ -33,7 +33,7 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Explanation & Examples](Explanation%20&%20Examples.md)
 
 
-## Components of PC
+## Hardware and Components of PC
 - [Hardware Architecture](Hardware%20Architecture.md)
 
 

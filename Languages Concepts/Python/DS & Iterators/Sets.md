@@ -42,7 +42,7 @@ print(abcSet)
 
 # Sets congelados
 
-Os sets congelados (**frozen sets**) são imutáveis, sendo essa a principal diferença dos sets normais. Uma vez criados, eles nao podem ser alterados depois. Eles tambem nao são ordenados.
+Os sets congelados (**frozen sets**) são imutáveis, sendo essa a principal diferença dos sets normais. Uma vez criados, eles nao podem ser alterados depois. Eles tambem não são ordenados.
 
 Para cria-los, é só usar a função **frozenset()**
 
