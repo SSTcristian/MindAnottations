@@ -2,7 +2,7 @@ A recursão é o nome de um processo que ocorre quando uma função chama a si m
 
 Ela possui varias desvantagens tambem, uma delas sendo o overflow na memoria. Cada chamada dela cria um novo espaço na memoria; com tantas chamadas, pode ocorrer um estouro na memoria kabuuuuuum pow pow
 
-Em geral, a recursividade vai depender muito de quem esta a usando. Se implementar uma 
+Em geral, a recursividade vai depender muito de quem esta a usando. Se nao implementar alguma otimização (como uma tail call), ela dificilmente vai ser utilizada várias vezes.
 
 ```python
 def fatorial(x: int) -> int:
@@ -23,7 +23,7 @@ return x * fatorial(x - 1)
 
 o **return** pega o x (numero escolhido para a fatoração, no caso o 5) e multiplica usando recursividade.
 
-seria a mesma coisa se utilizássemos o **for**:
+Seria a mesma coisa se utilizássemos o **for**:
 
 ```python
 def fatorial(n: int) -> int:
@@ -40,4 +40,4 @@ print(fatorial(5))
 # output: 120
 ```
 
-A implementacao com o for possui mais linhas, porem possui menos chance de dar um overflow na memoria caso a funcao recursiva seja instanciada em varios lugares
+A implementação com o for possui mais linhas, porém possui menos chance de dar um overflow na memoria caso a função recursiva seja instanciada em vários lugares.
