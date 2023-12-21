@@ -14,7 +14,31 @@ generatorExpression = (expressao for elemento in iteravel if condicao)
 
 os significados dessa sintaxe ai eh a mema coisa da list comprehension, então nao vou colocar aqui de novo nao
 
-# Definindo uma função geradora
+Podemos usar tanto uma [função geradora](#^da6956) ou declarar uma expressão geradora.
+
+# Expressão Geradora
+
+```python
+lstItarable = [2, 4, 6, 8, 10]
+
+# criando uma expressao geradora que eleva todos os numeros da lista "lstItarable" ao quadrado
+generatorExpression = (n ** 2 for i in lstItarable)
+
+for i in generatorExpression: # iterando sobre o objeto
+	print(i)
+	# output:
+	# 4
+	# 16
+	# 36
+	# 64
+	# 100
+#
+```
+
+
+# Função geradora
+
+^da6956
 
 Vamos definir uma função que retorna um objeto gerador:
 ```python
@@ -33,7 +57,12 @@ Como ela retorna um objeto gerador, podemos iterar sobre o resultado com um for:
 for i in quadractic(6): # iterando do 0 ate o 5
 	print(i, end=" ")
 	# output: 0 1 4 9 16 25
-	# retornou todos os numeros (do 0 ate 0 5) elevados ao quadrado
+	# retornou todos os numeros (do 0 ate o 5) elevados ao quadrado
 	
 ```
+
+
+# Links
+
+https://www.pythontutorial.net/advanced-python/python-generator-expressions/
 
