@@ -30,7 +30,8 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Object, Class and Instance](General%20Programming/OOP%20(Object-Oriented%20Programming)/Object,%20Class%20and%20Instance.md)
 
 ##### Sorting Algorithm
-- [Explanation & Examples](General%20Programming/Sorting%20Algorithm/Explanation%20&%20Examples.md)
+- [Simple Methods](General%20Programming/Sorting%20Algorithm/Simple%20Methods.md)
+- [Efficient Methods](General%20Programming/Sorting%20Algorithm/Efficient%20Methods.md)
 
 
 ## Hardware
@@ -42,7 +43,14 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 ### C
 - [Pointers](Language%20Concepts/C/Pointers.md)
 
+
 ### Python
+
+##### Algorithm
+- [Recursion](Language%20Concepts/Python/Algorithm/Recursion.md)
+- [List Comprehension](Language%20Concepts/Python/Algorithm/List%20Comprehension.md)
+- [Generator Expression](Language%20Concepts/Python/Algorithm/Generator%20Expression.md)
+
 ##### DS (Data Structures) & Iterators
 - [Dictionaries](Language%20Concepts/Python/DS%20&%20Iterators/Dictionaries.md)
 - [Lists](Language%20Concepts/Python/DS%20&%20Iterators/Lists.md)
@@ -51,7 +59,8 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Itarables and Iterators](Language%20Concepts/Python/DS%20&%20Iterators/Itarables%20and%20Iterators.md)
 
 ##### Virtual Environments
-- [Venv](Language%20Concepts/Python/Virtual%20/Venv.md)
+- [Venv](Language%20Concepts/Python/Virtual%20Environments/Venv.md)
+
 ##### Regular Expression
 - [RegeEx](Language%20Concepts/Python/Regular%20Expression/RegeEx.md)
 
@@ -59,4 +68,4 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Dunder Methods](Language%20Concepts/Python/Dunder%20Methods/Dunder%20Methods.md)
 
 ##### Lambda
-- [[Lambda](Lambda.md)]
+- [Lambda](Language%20Concepts/Python/Lambda/Lambda.md)
