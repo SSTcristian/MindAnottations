@@ -1,5 +1,7 @@
 Uma expressão geradora é uma construção semelhante a [List Comprehension](./List%20Comprehension.md), porem contem uma instrução **yield** e retorna um objeto gerador.
 
+- **yield** é uma instrução em que torna uma função comum em uma função geradora. Quando chamamos uma função desse tipo, em vez dela retornar um objeto normalmente, ela retorna um objeto gerador que pode ser iterado e aí sim iremos ver os valores produzidos por ela.
+
 Em grandes quantidades de dados, elas são uteis pois geram valores sob comanda, tornando-as mais eficientes.
 
 ![](../../../Images/Python/Generator%20Expression/Pasted%20image%2020231221154600.png)
