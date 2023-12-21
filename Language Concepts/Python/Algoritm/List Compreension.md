@@ -2,13 +2,16 @@ Compreensão da lista é uma maneira eficiente de criar uma lista com base em ou
 
 A sintaxe não é muito difícil tambem:
 ```python
-listCompreension = [expressao for elemento in lista_original if condicao]
+listCompreension = [expressao for elemento in iteravel if condicao]
 ```
 
 - **expressão** eh a qual vai ser avaliada em cada elemento da lista, como se fosse um "critério".
-- **elemento** significa literalmente a variável que vai representar o elemento na lista
-- **lista_original** eh a lista original para ser iterada
-- **condição** eh uma condição que ira definir se o elemento da **lista_original** ira ser incluído ou não
+
+- **elemento** significa literalmente a variável que vai representar o elemento na lista.
+
+- **iterável** é qualquer objeto iterável, seja tupla, lista, sets, dicts e por ai vai.
+
+- **condição** eh uma condição que ira definir se o elemento do **iterável** ira ser incluído ou não.
 
 # Exemplos:
 
@@ -21,11 +24,32 @@ listCompreension = [x for x in lista if x % 2 == 0]
 print(listCompreension) # [2, 4]
 ```
 
-Elevando todos os numeros ao quadrado:
+Elevando todos os números ao quadrado:
 ```python
 lst = [5, 10, 25, 40]
 
 compreension = [x ** 2 for x in lst]
 
-print(compreension) # 
+print(compreension) # [25, 100, 625, 1600]
 ```
+
+Dobrar todos os elementos:
+```python
+lst = [5, 10, 15, 25, 30]
+
+newLst = [y * 2 for y in lst] ## ou [y + y for y in lst]
+
+print(newLst) # [10, 20, 30, 50, 60]
+```
+
+Criando uma lista que naoo tenha a palavra 'Cristian':
+```python
+y = ['xpto', 'Cristian', '2023']
+
+newLst = [x for x in y if x != 'Cristian']
+
+print(newLst)
+```
+
+# Links
+https://www.w3schools.com/python/python_lists_comprehension.asp
