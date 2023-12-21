@@ -1,6 +1,6 @@
 As expressões regulares (RegeEx) servem para buscar determinado padrão em alguma string. Por exemplo, posso usar elas para verificar se tal string corresponde a um gmail valido ou a um numero de celular correto.
 
-![](https://images.datacamp.com/image/upload/v1665049689/Regular_Expressions_Cheat_Sheet_b95aae6488.png)
+![](../../../Images/Python/Regular%20Expression/Pasted%20image%2020231220233033.png)
 
 Em python, se faz uso do modulo **re** junto com o método **re.search()**:
 

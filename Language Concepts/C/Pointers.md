@@ -52,7 +52,7 @@ int main() {
 ```
 
 **Imagem que ilustra o exemplo acima (com alocação de memoria)**
-![](../../../Images/C/Pointers/Pasted%20image%2020231220231619.png)
+![](../../Images/C/Pointers/Pasted%20image%2020231220231619.png)
 
 
 # **Perguntas**

@@ -6,7 +6,7 @@ Provavelmente é o mais utilizado. Possui complexidade `O(n²)` no pior caso e
 ## Merge Short
 O algoritmo divide o problema em pedaços menores, resolve cada pedaço e depois junta (merge) os resultados. O vetor é dividido em duas partes iguais , que serão cada uma dividas em duas partes, e assim até ficar um ou dois elementos cuja ordenação é trivial. 
 
-Possui complexidade de `O(n log n)` para todos os casos
+Possui complexidade de `O(n log n)` para todos os casos.
 
 ## Shell Short
 Ele permite a troca de registros distantes um do outro, diferente do algoritmo de ordenação por inserção que possui a troca de itens adjacentes para determinar o ponto de inserção.
