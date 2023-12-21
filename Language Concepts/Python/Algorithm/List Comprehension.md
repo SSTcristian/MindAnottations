@@ -8,7 +8,7 @@ listCompreension = [expressao for elemento in iteravel if condicao]
 ```
 
 - **expressão** é a qual vai ser avaliada em cada elemento da lista, como se fosse um "critério".
-
+ ^ad8926
 - **elemento** significa literalmente a variável que vai representar o elemento na lista.
 
 - **iterável** é qualquer objeto iterável, seja tupla, lista, sets, dicts e por aí vai.
