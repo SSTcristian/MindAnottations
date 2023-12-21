@@ -6,7 +6,7 @@ names = ['Caneta Azul', 'Ben 10']
 print(names) # ['Caneta Azul', 'Ben 10']
 ```
 
-As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração
+As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração (mais sobre alterações na lista no arquivo [List Compreension](List%20Compreension.md))
 
 ![](Pasted%20image%2020231212212340.png)
 
@@ -71,10 +71,6 @@ lst = [1, 2]
 
 print(len(lst)) # -> 1
 ```
-
-
-# List Compreension
-
 # Links
 https://www.geeksforgeeks.org/python-lists/
 
