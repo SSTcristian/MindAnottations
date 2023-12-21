@@ -76,7 +76,7 @@ O valor de A é convertido para um ponteiro que aponta para o primeiro elemento 
 
 Seria a mesma coisa se tivesse escrito desse jeito:
 ```c
-int *ptr = &(array[0]); // apontando para o primeiro elemento do vetor de 42 posições
+int *ptr = &(array[0]); // apontando para o primeiro elemento do vetor de 5 posições
 ```
 
 
