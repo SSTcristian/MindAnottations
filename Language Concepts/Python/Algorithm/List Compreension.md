@@ -1,21 +1,23 @@
 Compreensão da lista é uma maneira eficiente de criar uma lista com base em outra, permitindo [iterar](../DS%20&%20Iterators/Itarables%20and%20Iterators.md) sobre seus elementos e aplicando uma expressão a cada um deles.
 
-A sintaxe não é muito difícil tambem:
+![](../../../Images/Python/List%20Compreension/Pasted%20image%2020231220231314.png)
+
+Como visto acima, a sintaxe não é muito difícil também:
 ```python
 listCompreension = [expressao for elemento in iteravel if condicao]
 ```
 
-- **expressão** eh a qual vai ser avaliada em cada elemento da lista, como se fosse um "critério".
+- **expressão** é a qual vai ser avaliada em cada elemento da lista, como se fosse um "critério".
 
 - **elemento** significa literalmente a variável que vai representar o elemento na lista.
 
-- **iterável** é qualquer objeto iterável, seja tupla, lista, sets, dicts e por ai vai.
+- **iterável** é qualquer objeto iterável, seja tupla, lista, sets, dicts e por aí vai.
 
-- **condição** eh uma condição que ira definir se o elemento do **iterável** ira ser incluído ou não.
+- **condição** é uma condição que vai definir se o elemento do **iterável** irá ser incluído ou não.
 
 # Exemplos:
 
-Pegando apenas os números pares da **lista** e passando para a **listCompreension**
+Pegando apenas os números pares da **lista**:
 ```python
 lista = [1, 2, 3, 4, 5]
 
@@ -33,11 +35,11 @@ compreension = [x ** 2 for x in lst]
 print(compreension) # [25, 100, 625, 1600]
 ```
 
-Dobrar todos os elementos:
+Dobrando todos os elementos:
 ```python
 lst = [5, 10, 15, 25, 30]
 
-newLst = [y * 2 for y in lst] ## ou [y + y for y in lst]
+newLst = [y * 2 for y in lst] # ou [y + y for y in lst]
 
 print(newLst) # [10, 20, 30, 50, 60]
 ```
@@ -48,8 +50,11 @@ y = ['xpto', 'Cristian', '2023']
 
 newLst = [x for x in y if x != 'Cristian']
 
-print(newLst)
+print(newLst) # ['xpto', '2023']
 ```
 
 # Links
+
 https://www.w3schools.com/python/python_lists_comprehension.asp
+
+https://realpython.com/list-comprehension-python/

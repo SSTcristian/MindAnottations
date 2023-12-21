@@ -2,7 +2,7 @@ As tuplas são coleções de objetos (separados por virgulas). Ao contrario das 
 
 Embora seja possível fazer uma tupla conter apenas UM elemento, não é tão pratico pois teríamos que colocar uma virgula no final (exemplo [aqui](#^e642aa))
 
-![](Images/Python/Tuples/Pasted%20image%2020231212212703.png)
+![](../../../Images/Python/Tuples/Pasted%20image%2020231212212703.png)
 
 ### Criando Tuplas
 
@@ -121,7 +121,7 @@ O fatiamento e feito para buscar intervalos muuuito específicos numa tupla - as
 
 (tambem é possível fatiar elementos numa [lista](Lists.md))
 
-![](Pasted%20image%2020231212192221.png)
+![](../../../Images/Python/Slicing%20Method/Pasted%20image%2020231212192221.png)
 
 
 ```python

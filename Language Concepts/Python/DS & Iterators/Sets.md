@@ -1,6 +1,6 @@
 É uma coleção de dados nao ordenados que é iterável, mutável e não possui elementos duplicados. Ehh representado por **{}** - chaves
 
-![](Images/Python/Sets/Pasted%20image%2020231212212417.png)
+![](../../../Images/Python/Sets/Pasted%20image%2020231212212417.png)
 
 ### Criando Sets
 
