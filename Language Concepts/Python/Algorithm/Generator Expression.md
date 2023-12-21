@@ -1,4 +1,4 @@
-Uma expressão geradora é uma construção semelhante a [List Comprehension](./List%20Comprehension.md), porem contem uma instrução **yield** e retorna um objeto gerador.
+Uma expressão geradora é uma construção semelhante a [List Comprehension](./List%20Comprehension.md). Juntamente com ela, também existe a função geradora, que diferente da função comum ela possui uma instrução **yield** e retorna um objeto gerador.
 
 - **yield** é uma instrução que torna uma função comum em uma função geradora. Quando chamamos uma função desse tipo, em vez dela retornar um objeto normalmente, ela retorna um objeto gerador que pode ser iterado e aí sim iremos ver os valores produzidos por ela.
 
