@@ -1,4 +1,4 @@
-Compreensão da lista é uma maneira eficiente de criar uma lista com base em outra, permitindo [iterar](Itarables%20and%20Iterators.md) sobre seus elementos e aplicando uma expressão a cada um deles.
+Compreensão da lista é uma maneira eficiente de criar uma lista com base em outra, permitindo [iterar](../DS%20&%20Iterators/Itarables%20and%20Iterators.md) sobre seus elementos e aplicando uma expressão a cada um deles.
 
 A sintaxe não é muito difícil tambem:
 ```python
@@ -42,7 +42,7 @@ newLst = [y * 2 for y in lst] ## ou [y + y for y in lst]
 print(newLst) # [10, 20, 30, 50, 60]
 ```
 
-Criando uma lista que naoo tenha a palavra 'Cristian':
+Criando uma lista que não tenha a palavra 'Cristian':
 ```python
 y = ['xpto', 'Cristian', '2023']
 

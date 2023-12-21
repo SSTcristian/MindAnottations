@@ -1,6 +1,6 @@
 Um dicionário é uma coleção ordenada de valores-chaves, onde armazenam valores como se fosse um mapa. Possui Case-Sensitive.
 
-![](Pasted%20image%2020231212202458.png)
+![](Images/Python/DPasted%20image%2020231212202458.png)
 
 
 # Criação de dicionários

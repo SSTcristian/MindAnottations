@@ -8,6 +8,8 @@ Os arrays podem ser unidimensionais (vetor) ou bidimensionais (matriz).
 
 As informações podem ser acessadas rapidamente através de um índice, sendo sempre iniciado com zero.
 
+- No arquivo **[Lists](../../Language%20Concepts/Python/DS%20&%20Iterators/Lists.md)**, é possível ver mais exemplos sobre manipulação de vetores.
+
 # Vetor (Array Unidimensional)
 Para criar um vetor (um array contendo apenas linhas), basta declarar uma variável e depois atribuir um tipo de dado a essa variável (sempre em colchetes)
 
@@ -46,7 +48,7 @@ Dado esse exemplo, se eu quiser acessar o numero 6 na lista de inteiros definido
 print(matriz[1][2]) # irá retornar o numero 6
 ```
 
-No arquivo **[Lists](Lists.md)** , é possível ver mais exemplos sobre manipulação de listas.
+
 
 # Links
 https://kenzie.com.br/blog/o-que-array/#:~:text=programação%2C%20um%20dado.-,Como%20funciona%20um%20array%3F,pelo%20número%2C%20denominado%20como%20índice

@@ -6,9 +6,9 @@ names = ['Caneta Azul', 'Ben 10']
 print(names) # ['Caneta Azul', 'Ben 10']
 ```
 
-As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração (mais sobre alterações na lista no arquivo [List Compreension](List%20Compreension.md))
+As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração (mais sobre alterações na lista no arquivo [List Compreension](../Algorithm/List%20Compreension.md))
 
-![](Pasted%20image%2020231212212340.png)
+![](Images/Python/Lists/Pasted%20image%2020231212212340.png)
 
 # Manipulando as listas (array) em python
 ### Inserindo Elemento

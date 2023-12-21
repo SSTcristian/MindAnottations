@@ -2,7 +2,7 @@ As tuplas são coleções de objetos (separados por virgulas). Ao contrario das 
 
 Embora seja possível fazer uma tupla conter apenas UM elemento, não é tão pratico pois teríamos que colocar uma virgula no final (exemplo [aqui](#^e642aa))
 
-![](Pasted%20image%2020231212212703.png)
+![](Images/Python/Tuples/Pasted%20image%2020231212212703.png)
 
 ### Criando Tuplas
 
