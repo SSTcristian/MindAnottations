@@ -19,9 +19,11 @@ os significados dessa sintaxe ai eh a mema coisa da list comprehension, então n
 Vamos definir uma função que retorna um objeto gerador:
 ```python
 # funcao que retorna todos os numeros ao quadrado
+
 def quadractic(number: int) -> int: 
 	for i in range(number):
 		yield i ** 2 
+		
 		# yield tornando a funcao geradora, se usassemos o "return" ela seria uma funcao comum e nao precisariamos iterar sobre ela
 ```
 
@@ -29,8 +31,9 @@ Como ela retorna um objeto gerador, podemos iterar sobre o resultado com um for:
 
 ```python
 for i in quadractic(6): # iterando do 0 ate o 5
-	print(i, end=" ") # retorna 0, 1, 2, 3, 4, 5 elevados ao quadrado
+	print(i, end=" ")
 	# output: 0 1 4 9 16 25
+	# retornou todos os numeros (do 0 ate 0 5) elevados ao quadrado
 	
 ```
 
