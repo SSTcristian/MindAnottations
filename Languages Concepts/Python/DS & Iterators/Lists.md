@@ -72,6 +72,9 @@ lst = [1, 2]
 print(len(lst)) # -> 1
 ```
 
+
+# List Compreension
+
 # Links
 https://www.geeksforgeeks.org/python-lists/
 
