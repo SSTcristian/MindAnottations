@@ -1,7 +1,6 @@
 # Sumario
 - [Definição](#Definição)
 - [**Exemplo de código em C que demonstra o conceito de ponteiros e vetores (arrays)**](#**Exemplo%20de%20código%20em%20C%20que%20demonstra%20o%20conceito%20de%20ponteiros%20e%20vetores%20(arrays)**)
-- [Imagem que ilustra a alocação de um objeto em um endereço da memoria](#**Imagem%20que%20ilustra%20a%20alocação%20de%20um%20objeto%20em%20um%20endereço%20da%20memoria**)
 - [Perguntas](#Perguntas)
 - [Links](#Links)
 
@@ -52,8 +51,8 @@ int main() {
 // Vet[4] = e ptr = e
 ```
 
-# **Imagem que ilustra a alocação de um objeto em um endereço da memoria**
-![](https://www.codingame.com/servlet/fileservlet?id=41409364165150)
+**Imagem que ilustra o exemplo acima (com alocação de memoria)**
+![](../../../Images/C/Pointers/Pasted%20image%2020231220231619.png)
 
 
 # **Perguntas**

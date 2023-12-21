@@ -61,7 +61,7 @@ class Euuu(Pessoa):
 
 Assim, foi implementado as ações dos métodos contidos na classe Pessoa
 
-A super classe eh responsável por ter os atributos comuns a todas as outras sub classe (nesse caso foi **nome** e **idade**)
+A super classe é responsável por ter os atributos comuns a todas as outras sub classe (nesse caso foi **nome** e **idade**)
 
 Assim, a abstração permite que a classe Pessoa seja definida de forma mais genérica, sem se preocupar com as particularidades de cada pessoa, deixando esses detalhes para as suas classes filhas (sub classes)
 

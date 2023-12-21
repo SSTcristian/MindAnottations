@@ -1,6 +1,6 @@
 Array é uma estrutura de dados simples, usado para armazenar valores num espaço continuo da memoria. 
 
-Em python, os arrays são chamados de listas. Nela, pode-se armazenar vários tipos de dados (int, string, booleano e etc.), porem isso não eh recomendado justamente pela **linearidade de memoria**
+Em python, os arrays são chamados de listas. Nela, pode-se armazenar vários tipos de dados (int, string, booleano e etc.), porém isso não é recomendado justamente pela **linearidade de memoria**
 
 - A linearidade de memoria permite que o array seja armazenado de forma consecutivos na memoria, permitindo um acesso mais rápido ao elemento, já que o processador ira conseguir identificar facilmente onde esta o próximo elemento pois estão todos armazenados sequencialmente
 
@@ -39,7 +39,7 @@ Se eu quiser pegar um determinado valor na matriz, é só especificar a linha e 
 
 ```python
 print(matriz[0][1]) # retornará o numero 2
-# o primeiro eh a linha e o segundo eh a coluna (matriz[linha][coluna])
+# o primeiro é a linha e o segundo é a coluna (matriz[linha][coluna])
 ```
 
 Dado esse exemplo, se eu quiser acessar o numero 6 na lista de inteiros definido la em cima, é só eu passar as "coordenadas" do elemento:

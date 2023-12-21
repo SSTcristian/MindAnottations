@@ -6,7 +6,7 @@ names = ['Caneta Azul', 'Ben 10']
 print(names) # ['Caneta Azul', 'Ben 10']
 ```
 
-As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração (mais sobre alterações na lista no arquivo [List Compreension](../Algorithm/List%20Compreension.md))
+As listas tambem são mutáveis, permitindo que alteramos ela mesmo depois da declaração (mais sobre alterações na lista no arquivo [List Comprehension](List%20Comprehension.md))
 
 ![](../../../Images/Python/Lists/Pasted%20image%2020231212212340.png)
 
@@ -54,7 +54,7 @@ print(naoAguentoMaisEscreverLista[0:1])
 
 sliceMethod = slice(0, 2)
 print(naoAguentoMaisEscreverLista[sliceMethod])
-# mesma coisa dos colchetes, mas esse eh utilizando o metodo slice()
+# mesma coisa dos colchetes, mas esse é utilizando o metodo slice()
 # output: ['socorro', 'aaaaa']
 
 sliceMethod = slice(1, 2)

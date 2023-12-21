@@ -22,7 +22,7 @@ O objeto é a CASA. É algo teoricamente físico (pro computador), existe em tem
 
 A casa (classe) só vai passar a existir quando construirmos (build a aplicação) ela, ou seja, quando instanciamos (objeto) a classe
 
-["Então o objeto é uma instância da classe. Na classe você pode dizer que aquele objeto terá uma cor, no objeto você diz qual é a cor, só pode dizer isso porque foi definido na classe que essa informação deve estar no objeto."](https://pt.stackoverflow.com/questions/100812/qual-a-diferen%C3%A7a-entre-uma-classe-e-um-objeto?noredirect=1&lq=1#:~:text=Ent%C3%A3o%20o%20objeto%20%C3%A9%20uma%20inst%C3%A2ncia%20da%20classe.%20Na%20classe%20voc%C3%AA%20pode%20dizer%20que%20aquele%20objeto%20ter%C3%A1%20uma%20cor%2C%20no%20objeto%20voc%C3%AA%20diz%20qual%20%C3%A9%20a%20cor%2C%20s%C3%B3%20pode%20dizer%20isso%20porque%20foi%20definido%20na%20classe%20que%20essa%20informa%C3%A7%C3%A3o%20deve%20estar%20no%20objeto.) <- isso eh um link, nao seja burro futuro eu
+["Então o objeto é uma instância da classe. Na classe você pode dizer que aquele objeto terá uma cor, no objeto você diz qual é a cor, só pode dizer isso porque foi definido na classe que essa informação deve estar no objeto."](https://pt.stackoverflow.com/questions/100812/qual-a-diferen%C3%A7a-entre-uma-classe-e-um-objeto?noredirect=1&lq=1#:~:text=Ent%C3%A3o%20o%20objeto%20%C3%A9%20uma%20inst%C3%A2ncia%20da%20classe.%20Na%20classe%20voc%C3%AA%20pode%20dizer%20que%20aquele%20objeto%20ter%C3%A1%20uma%20cor%2C%20no%20objeto%20voc%C3%AA%20diz%20qual%20%C3%A9%20a%20cor%2C%20s%C3%B3%20pode%20dizer%20isso%20porque%20foi%20definido%20na%20classe%20que%20essa%20informa%C3%A7%C3%A3o%20deve%20estar%20no%20objeto.) <- isso é um link, não seja burro futuro eu
 
 ```python
 # exemplo de classe em python

@@ -1,6 +1,6 @@
 Compreensão da lista é uma maneira eficiente de criar uma lista com base em outra, permitindo [iterar](../DS%20&%20Iterators/Itarables%20and%20Iterators.md) sobre seus elementos e aplicando uma expressão a cada um deles.
 
-![](../../../Images/Python/List%20Compreension/Pasted%20image%2020231220231314.png)
+![](Pasted%20image%2020231220231314.png)
 
 Como visto acima, a sintaxe não é muito difícil também:
 ```python
