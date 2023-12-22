@@ -4,9 +4,9 @@ Uma expressão geradora é uma construção semelhante a [List Comprehension](./
 
 Em grandes quantidades de dados, as funções geradoras são uteis pois geram valores sob comanda, tornando-as mais eficientes.
 
-![](../../../Images/Python/Generator%20Expression/Pasted%20image%2020231221154600.png)
+![](Pasted%20image%2020231221205521.png)
 
-A sintaxe é bem parecida com [List Comprehension](List%20Comprehension.md), porem em vez de ser colchetes **[]**, se usa parênteses **()**:
+A sintaxe é bem parecida com [List Comprehension](List%20Comprehension.md), porém em vez de ser colchetes **[]**, se usa parênteses **()**:
 
 ```python
 generatorExpression = (expressao for elemento in iteravel if condicao)
