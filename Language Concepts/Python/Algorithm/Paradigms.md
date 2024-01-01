@@ -20,3 +20,21 @@ print(plus) # 20
 
 
 ## Orientado a Objetos (OO / OOP)
+O programa eh estruturado em torno de objetos (que podem conter dados e códigos). As interações ocorrem principalmente por meio de mensagens entre objeto. C++, Java, C Sharp e o próprio Python são exemplos de linguagens orientada a objetos.
+
+Pelo Python já ser orientado a objetos, podemos usar [classes](../../../General%20Programming/OOP%20(Object-Oriented%20Programming)/Object,%20Class%20and%20Instance.md), [heranças](../../../General%20Programming/OOP%20(Object-Oriented%20Programming)/Inheritance.md), [polimorfismos](../../../General%20Programming/OOP%20(Object-Oriented%20Programming)/Polymorphism.md), [encapsulações](../../../General%20Programming/OOP%20(Object-Oriented%20Programming)/Encapsulation.md) e [abstrações](../../../General%20Programming/OOP%20(Object-Oriented%20Programming)/Abstraction.md)
+
+```python
+class people:
+	def __init__(self, nome: str) -> None:
+		self.nome = nome
+	
+	def name(self):
+		return self.nome
+
+xpto = people('Cristian')
+
+print(xpto.name()) # 'Cristian'
+```
+
+# Funcional
