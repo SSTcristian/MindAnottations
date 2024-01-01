@@ -37,4 +37,5 @@ xpto = people('Cristian')
 print(xpto.name()) # 'Cristian'
 ```
 
-# Funcional
+## Funcionais
+Trata a computação como as funções em matemática e evita mudanças de estado e dados mutáveis. [Lambda](../Lambda/Lambda.md) e [Recursion](Recursion.md) são abordagens básicas utilizadas nesse paradigma
