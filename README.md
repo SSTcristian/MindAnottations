@@ -50,6 +50,7 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Recursion](Language%20Concepts/Python/Algorithm/Recursion.md)
 - [List Comprehension](Language%20Concepts/Python/Algorithm/List%20Comprehension.md)
 - [Generator Expression](Language%20Concepts/Python/Algorithm/Generator%20Expression.md)
+- [Paradigms](Language%20Concepts/Python/Algorithm/Paradigms.md)
 
 ##### DS (Data Structures) & Iterators
 - [Dictionaries](Language%20Concepts/Python/DS%20&%20Iterators/Dictionaries.md)
@@ -57,6 +58,10 @@ anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
 - [Sets](Language%20Concepts/Python/DS%20&%20Iterators/Sets.md)
 - [Tuples](Language%20Concepts/Python/DS%20&%20Iterators/Tuples.md)
 - [Itarables and Iterators](Language%20Concepts/Python/DS%20&%20Iterators/Itarables%20and%20Iterators.md)
+
+##### Frameworks
+- [PyTest](Language%20Concepts/Python/Frameworks/PyTest.md)
+- [Django](Language%20Concepts/Python/Frameworks/Django.md)
 
 ##### Virtual Environments
 - [Venv](Language%20Concepts/Python/Virtual%20Environments/Venv.md)
