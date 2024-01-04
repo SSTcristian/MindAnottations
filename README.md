@@ -16,11 +16,11 @@ anotações q eu fiz usando o Obsidian
 
 
 ##### Logaritm
-- [Defination & Exemplos](Defination%20&%20Exemplos.md)
+- [Defination & Exemplos](Programming%20Concepts/Logaritm/Defination%20&%20Exemplos.md)
 
 ##### Memory Alocation
-- [Contiguous](Contiguous.md)
-- [Not Contiguous](Not%20Contiguous.md)
+- [Contiguous](Programming%20Concepts/Memory%20Alocation/Contiguous.md)
+- [Not Contiguous](Programming%20Concepts/Memory%20Alocation/Not%20Contiguous.md)
 
 ##### OOP (Object-Oriented Programming)
 - [Inheritance](Programming%20Concepts/OOP%20(Object-Oriented%20Programming)/Inheritance.md)
