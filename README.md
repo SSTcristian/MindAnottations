@@ -1,41 +1,41 @@
 # Annotations
-anotações q eu fiz usando o melhor app para isso, tbm conhecido como Obsidian
+anotações q eu fiz usando o Obsidian
 
 
 ## General Programming
 ##### Big O Notation
 
-- [Explanation, Example and Links](General%20Programming/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
+- [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
 
 ##### Data Structures
 
-- [Array (Vetor ou Matriz)](General%20Programming/Data%20Structures/Array%20(Vetor%20ou%20Matriz).md)
-- [Stack - Last-In, Last-Out](General%20Programming/Data%20Structures/Stack%20-%20Last-In,%20Last-Out.md)
-- [Queue - First-In, First-Out](General%20Programming/Data%20Structures/Queue%20-%20First-In,%20First-Out.md)
-- [Binary Tree](General%20Programming/Data%20Structures/Binary%20Tree.md)
+- [Array (Vetor ou Matriz)](Programming%20Concepts/Data%20Structures/Array%20(Vetor%20ou%20Matriz).md)
+- [Stack - Last-In, Last-Out](Programming%20Concepts/Data%20Structures/Stack%20-%20Last-In,%20Last-Out.md)
+- [Queue - First-In, First-Out](Programming%20Concepts/Data%20Structures/Queue%20-%20First-In,%20First-Out.md)
+- [Binary Tree](Programming%20Concepts/Data%20Structures/Binary%20Tree.md)
 
 
 ##### Logaritm
-- [Defination & Exemplos](General%20Programming/Logaritm/Defination%20&%20Exemplos.md)
+- [Defination & Exemplos](Defination%20&%20Exemplos.md)
 
 ##### Memory Alocation
-- [Contiguous](General%20Programming/Memory%20Alocation/Contiguous.md)
-- [Not Contiguous](General%20Programming/Memory%20Alocation/Not%20Contiguous.md)
+- [Contiguous](Contiguous.md)
+- [Not Contiguous](Not%20Contiguous.md)
 
 ##### OOP (Object-Oriented Programming)
-- [Inheritance](General%20Programming/OOP%20(Object-Oriented%20Programming)/Inheritance.md)
-- [Polymorphism](General%20Programming/OOP%20(Object-Oriented%20Programming)/Polymorphism.md)
-- [Encapsulation](General%20Programming/OOP%20(Object-Oriented%20Programming)/Encapsulation.md)
-- [Abstraction](General%20Programming/OOP%20(Object-Oriented%20Programming)/Abstraction.md)
-- [Object, Class and Instance](General%20Programming/OOP%20(Object-Oriented%20Programming)/Object,%20Class%20and%20Instance.md)
+- [Inheritance](Programming%20Concepts/OOP%20(Object-Oriented%20Programming)/Inheritance.md)
+- [Polymorphism](Programming%20Concepts/OOP%20(Object-Oriented%20Programming)/Polymorphism.md)
+- [Encapsulation](Programming%20Concepts/OOP%20(Object-Oriented%20Programming)/Encapsulation.md)
+- [Abstraction](Programming%20Concepts/OOP%20(Object-Oriented%20Programming)/Abstraction.md)
+- [Object, Class and Instance](Programming%20Concepts/OOP%20(Object-Oriented%20Programming)/Object,%20Class%20and%20Instance.md)
 
 ##### Sorting Algorithm
-- [Simple Methods](General%20Programming/Sorting%20Algorithm/Simple%20Methods.md)
-- [Efficient Methods](General%20Programming/Sorting%20Algorithm/Efficient%20Methods.md)
+- [Simple Methods](Programming%20Concepts/Sorting%20Algorithm/Simple%20Methods.md)
+- [Efficient Methods](Programming%20Concepts/Sorting%20Algorithm/Efficient%20Methods.md)
 
 
 ## Hardware
-- [Hardware Architecture](Hardware%20Architecture.md)
+- [Hardware Architecture](Hardware/Hardware%20Architecture.md)
 
 
 ## Language Concepts

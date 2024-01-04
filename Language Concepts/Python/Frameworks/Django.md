@@ -7,6 +7,7 @@ Ele separa o processo em duas fases: **Request Phase** e **Response Phase**
 # Arquitetura
 Ele usa a arquitetura **MVT** (**Model View Template**), bem parecida com a **MVC** que é utilizada em C#, Java, PHP e por ai vai.
 
+
 - **Model**: representa a camada de dados e a logica por trás dos negócios
 ```python
 from django.db import models
@@ -28,8 +29,8 @@ CREATE TABLE site_Person (
 )
 ```
 
-
-- **View:** lida com a interface do usuário. No Django, representa a logica que processa as solicitações do usuário e retorna uma resposta. Em si, é uma função que recebe uma solicitacao do usuario e retorna uma resposta (podendo ser um arquivo **HTML**, redirecionamento para outra página e etc.)
+<br>
+- **View:** lida com a interface do usuário. No Django, representa a logica que processa as solicitações do usuário e retorna uma resposta (podendo ser um arquivo **HTML**, redirecionamento para outra página, uma imagem e etc.)
   
 ```python
 from django.http import HttpResponse
@@ -44,12 +45,13 @@ def dateTimeNow(request):
 
 Aí estamos definindo uma função que retorna a data e horas atuais, utilizando um html.
 
-As views usam as models para processar os dados solicitados e depois levam esses dados para os **templates**
+As views usam as models para processar os dados solicitados e depois levam esses dados para os **templates**.
 
+<br>
 - **Template:** responsável pela apresentação da informação (semelhante a **view** no MVC). É um arquivo de modelo que define como os dados vindos da views vão ser tratados e mostrados para o usuário.
 
-# Links
 
+# Links
 https://www.djangoproject.com/
 
 https://www.djangoproject.com/start/
