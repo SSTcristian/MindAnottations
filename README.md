@@ -2,7 +2,7 @@
 anotações q eu fiz usando o Obsidian
 
 
-## General Programming
+## Programming Concepts
 ##### Big O Notation
 
 - [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
