@@ -30,7 +30,7 @@ print((lambda x, y: x * y)(5, 2)) # 10
 ```
 
 
-Embora de pra se utilizar as lambdas assim, é mais comum ela ser utilizada em conjunto com os métodos **map**, **filter** e **reduce**.
+Embora dê pra se utilizar as lambdas assim, é mais comum ela ser utilizada em conjunto com os métodos **map**, **filter** e **reduce**.
 
 ### Map
 ```python
