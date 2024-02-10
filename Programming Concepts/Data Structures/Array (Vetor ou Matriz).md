@@ -23,7 +23,7 @@ print(vetor[0]) # acessando o indice 0 do vetor, irá retornar o valor 1
 
 
 # Matriz (Array Bidimensional)
-As matrizes são arrays bidimensionais, com elementos organizados em linhas e colunas.  Como declaro uma matriz? Se vira ai otario
+As matrizes são arrays bidimensionais, com elementos organizados em linhas e colunas.  Como declaro uma matriz? nao sei tambem
 
 ```python
 matriz: int = [
