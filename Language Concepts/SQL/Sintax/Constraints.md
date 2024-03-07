@@ -23,7 +23,7 @@ CREATE TABLE cars(
 	DonoCPF TET,
 	Fabricacao DATE,
 	FOREIGN KEY (DonoCPF) REFERENCES pessoa(cpf)
-)
+);
 ```
 
 
