@@ -20,7 +20,7 @@ Estabelece uma relacao entre duas tabelas, garantindo que uma coluna seja igual 
 ```sql
 CREATE TABLE cars(
 	PlacaId INT PRIMARY KEY,
-	DonoCPF TET,
+	DonoCPF TEXT,
 	Fabricacao DATE,
 	FOREIGN KEY (DonoCPF) REFERENCES pessoa(cpf)
 );
