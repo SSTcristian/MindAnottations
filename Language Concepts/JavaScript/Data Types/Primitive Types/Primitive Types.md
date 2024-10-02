@@ -1,0 +1,1 @@
+Em JavaScript, os **Primitive Types** ( **Tipos Primitivos** ) são dados que não são um objeto e não possuem métodos ou propriedades 
