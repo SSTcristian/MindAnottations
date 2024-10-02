@@ -1,4 +1,6 @@
-Um objeto literal é uma estrutura de dados usado para armazenar coleções de dados. Em resumo, é uma sintaxe para criar um objeto em JS composto por pares chave-valor, sendo uma maneira leve e eficiente de criar e armazenar matrizes, funções, dados complexos e etc.
+Um objeto literal é uma estrutura de dados usado para armazenar coleções de dados. Em resumo, um objeto literal é uma forma de criar objetos de maneira direta e concisa.
+
+É possível definir um objeto utilizando uma sintaxe simples, usando pares de chave-valor para especificar as propriedades e os métodos.
 
 # Exemplos
 
@@ -18,10 +20,13 @@ const Person = {
 	name: 'Cristian',
 	age: 16,
 	hobby: 'Programming',
-	greet: () => {
+	greet: function() {
 		console.log(`Hello World, my name is ${this.name}`)
 	}
 };
+
+console.log(Person.greet())
+// -> Hello World, my name is Cristian
 ```
 
 ### Criando um Objeto (Nova Instancia)
