@@ -35,3 +35,20 @@ console.log(Person.greet())
 // Hello World, meu nome é Cristian
 ```
 
+
+### Estrutura mais complexa:
+
+```js
+const Person = {
+	name: 'Cristian',
+	age: 16,
+	hobby: 'Programming',
+	musicGenreFavs: {
+		best: 'Rock',
+	}
+}
+
+console.log(Person.musicGenreFavs.best)
+// 'Rock'
+```
+
