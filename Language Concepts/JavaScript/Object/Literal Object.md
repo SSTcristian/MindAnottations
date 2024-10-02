@@ -1,11 +1,11 @@
 Um objeto literal é uma estrutura de dados usado para armazenar coleções de dados. Em resumo, um objeto literal é uma forma de criar objetos de maneira direta e concisa.
 
-É possível definir um objeto utilizando uma sintaxe simples, usando pares de chave-valor para especificar as propriedades e os métodos.
+Um objeto literal é representado por chaves `{}` e contém pares de chave valor, onde a chave é um identificador e o valor pode ser qualquer dado, como uma string, número, função ou outro objeto.
 
-É possível adicionar, modificar e remover propriedades e métodos dinamicamente durante a execução do programa.
+Em resumo, os objeto literais são fundamentais na manipulação de dados em JS, especialmente ao trabalhar com APIS ou gerenciar o estado de uma aplicação.
 
 # Sintaxe
-Em relação a sintaxe, é necessário colcoar as propriedades e os métodos dentro de um par de chaves **{}**, separados por virgulas:
+Em relação a sintaxe, é necessário colocar as propriedades e os métodos dentro de um par de chaves `{}`, separados por virgulas:
 
 ```javascript
 const car = {
@@ -15,36 +15,23 @@ const car = {
 }
 ```
 
-Nesse exemplo, **car** é um objeto literal que contém 3 propriedades - nome, ano do modelo e cv (cavalos de potência)
-### Criação de um objeto literal
-```javascript
-const obj = {}
+Nesse exemplo, **car** é um objeto literal que contém 3 propriedades - nome, ano do modelo e cv (cavalos de potência), cada uma contendo o seu respectivo valor.
 
-obj.name = 'cristian'
+### Objeto literal com funções
 
-console.log(obj.name) // 'cristian'
-```
+Além disso, é possível criar objetos literais que contém funções:
 
-### Armazenando Funções
-Os objetos literais também podem armazenar funções
 ```js
 const Person = {
 	name: 'Cristian',
 	age: 16,
 	hobby: 'Programming',
 	greet: function() {
-		console.log(`Hello World, my name is ${this.name}`)
+		console.log(`Hello World, meu nome é ${this.name}`)
 	}
 };
 
 console.log(Person.greet())
-// -> Hello World, my name is Cristian
+// Hello World, meu nome é Cristian
 ```
 
-### Criando um Objeto (Nova Instancia)
-Para criar uma novo objeto, temos que declarar uma instancia:
-```javascript
-const newObject = new Person()
-
-///
-```
