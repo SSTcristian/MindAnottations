@@ -1,0 +1,1 @@
+Foi introduzido no ECMAScript 2020 (ES11) e é usado para representar números inteiros muito grandes que não podem ser represetnados pelo tipo
