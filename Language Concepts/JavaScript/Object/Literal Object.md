@@ -2,8 +2,20 @@ Um objeto literal é uma estrutura de dados usado para armazenar coleções de d
 
 É possível definir um objeto utilizando uma sintaxe simples, usando pares de chave-valor para especificar as propriedades e os métodos.
 
-# Exemplos
+É possível adicionar, modificar e remover propriedades e métodos dinamicamente durante a execução do programa.
 
+# Sintaxe
+Em relação a sintaxe, é necessário colcoar as propriedades e os métodos dentro de um par de chaves **{}**, separados por virgulas:
+
+```javascript
+const car = {
+	name: 'Gol GTI',
+	year: 2023,
+	cv: 145,
+}
+```
+
+Nesse exemplo, **car** é um objeto literal que contém 3 propriedades - nome, ano do modelo e cv (cavalos de potência)
 ### Criação de um objeto literal
 ```javascript
 const obj = {}
