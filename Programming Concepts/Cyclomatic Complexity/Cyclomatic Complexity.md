@@ -45,13 +45,15 @@ V(G) = 5 nós-predicados + 1 = 6
 
 Com o resultado sendo 6, então sabemos que precisamos pelo menos 6 testes para garantir as ações que esse código pode tomar.
 
-Os seis caminhos independentes são:
+==Os seis caminhos independentes são:==
 
-- **1)** 1-2-10-12-13
-- **2)** 1-2-10-11-13
-- **3)** 1-2-3-10-11-13
-- **4)** 1-2-3-4-5-8-9-2-[…]
-- **5)** 1-2-3-4-5-6-8-9-2-[…]
-- **6)** 1-2-3-4-5-6-7-8-9-2-[…]
+- ==**1)** 1-2-10-12-13==
+- ==**2)** 1-2-10-11-13==
+- ==**3)** 1-2-3-10-11-13==
+- ==**4)** 1-2-3-4-5-8-9-2-[…]==
+- ==**5)** 1-2-3-4-5-6-8-9-2-[…]==
+- ==**6)** 1-2-3-4-5-6-7-8-9-2-[…]==
 # LINKS
 [Complexidade ciclomática, análise estática e refatoração | Blog da TreinaWeb](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
+
+[Microsoft PowerPoint - Aula9-EngSoft2](http://www2.ic.uff.br/~bianca/engsoft2/index_arquivos/Aula9-EngSoft2.pdf) - Trabalho da professora Bianca Zadrozny (Instituto da Computação da UFF)
