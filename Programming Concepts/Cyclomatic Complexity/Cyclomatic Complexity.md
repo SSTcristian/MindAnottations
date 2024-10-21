@@ -23,5 +23,18 @@ Possuindo um grafo de fluxo ou um fluxograma, possuímos então 3 maneiras para 
 (exemplo com a notação de grafo de fluxo)
 ![](https://d2m498l008ebpa.cloudfront.net/2017/02/grafo.png)
 
+Com o código acima, podemos ver que a complexidade ciclomática é 6, pois usando as 3 fórmulas, iremos obter o seguinte resultado:
+
+**1)** **V(G) = R** - onde **R** é o número de regiões do grafo de fluxo.
+![](https://d2m498l008ebpa.cloudfront.net/2017/02/grafo2-1.jpg)
+
+Temos *6* regiões
+
+**2)** **V(G) = E – N + 2** - onde **E** é o número de arestas (setas) e **N** é o número de nós do grafo G.
+
+```js
+
+```
+
 # LINKS
 [Complexidade ciclomática, análise estática e refatoração | Blog da TreinaWeb](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
