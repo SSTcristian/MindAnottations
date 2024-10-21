@@ -30,11 +30,28 @@ Com o código acima, podemos ver que a complexidade ciclomática é 6, pois usan
 
 Temos *6* regiões
 
-**2)** **V(G) = E – N + 2** - onde **E** é o número de arestas (setas) e **N** é o número de nós do grafo G.
+**2)** **V(G) = E – N + 2** - onde **E** é o número de arestas (setas) e **N** é o número de nós do grafo G:
 
 ```js
-
+V(G) = 17 arestas/setas – 13 nós + 2 = 6
 ```
 
+
+**3)** **V(G) = P + 1** - onde **P** é o número de nós predicados contidos no grafo G:
+
+```js
+V(G) = 5 nós-predicados + 1 = 6
+```
+
+Com o resultado sendo 6, então sabemos que precisamos pelo menos 6 testes para garantir as ações que esse código pode tomar.
+
+Os seis caminhos independentes são:
+
+- **1)** 1-2-10-12-13
+- **2)** 1-2-10-11-13
+- **3)** 1-2-3-10-11-13
+- **4)** 1-2-3-4-5-8-9-2-[…]
+- **5)** 1-2-3-4-5-6-8-9-2-[…]
+- **6)** 1-2-3-4-5-6-7-8-9-2-[…]
 # LINKS
 [Complexidade ciclomática, análise estática e refatoração | Blog da TreinaWeb](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
