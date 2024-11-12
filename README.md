@@ -6,6 +6,7 @@ anotações q eu fiz usando o Obsidian
 ##### Big O Notation
 
 - [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
+- [Asymptotic Notation](Programming%20Concepts/Big%Asymptotic%20Notation.md)
 
 ##### Data Structures
 
