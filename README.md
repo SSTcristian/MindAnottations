@@ -1,12 +1,13 @@
-# Annotations
-anotações q eu fiz usando o Obsidian
+# ANNOTATIONS
+Algumas pequenas anotações para estudo (usando o Obsidian)
 
 
 ## Programming Concepts
 ##### Big O Notation
 
+- [Asymptotic Notation](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation.md)
 - [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
-- [Asymptotic Notation](Programming%20Concepts/Big%Asymptotic%20Notation.md)
+
 
 ##### Data Structures
 
