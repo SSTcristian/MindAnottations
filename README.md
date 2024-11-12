@@ -1,9 +1,9 @@
-# ANNOTATIONS
+# Mind-Annotations
 *Algumas pequenas anotações para estudo (usando o Obsidian)*
 
 Essas anotações têm como objetivo criar uma estrutura de estudo clara e prática sobre diversos temas de programação e tecnologia. Cada seção (e subseção) oferece os conceitos e exemplos práticos - normalmente escritos em C Sharp ou Python - com determinada terminologia.
 
-No geral, usei isso para me ajudar a lembrar de certos assuntos e me motivar cada vez mais a estudar e
+No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me motivar cada vez mais a estudar esse mundo *tão pequeno* da programação :)
 
 
 
