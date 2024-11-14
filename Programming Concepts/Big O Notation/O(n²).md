@@ -20,7 +20,7 @@ Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma comp
 ```c sharp
 // Complexidade O(n^2)
 
-public static void OpQuadratic(int n)
+public static void BigQuadratic(int n)
 	{
 		for (int x = 0; x < n; x++)
 		{
@@ -35,6 +35,8 @@ public static void OpQuadratic(int n)
 No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando `n` vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
 *n × n = n²*. 
 
+Portanto, se `n` fosse igual a 2, a função *BigQuadratic* nos retornaria 4 mensagens no console, p
+
 ## AUMENTANDO A COMPLEXIDADE
 Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastávamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica, teriamos que adicionar 3 for:
 
@@ -43,9 +45,13 @@ public static void BigCubic(int n)
 {
 	for (int i = 0; i < n; i++)
 	{
-		for (int j = 0; j < n; i++)
+		for (int x = 0; x < n; i++)
 		{
-		
+			for (int z = 0; z < n; z++)
+			{
+				Console.WriteLine("Complexidade cubica: \n
+				{i} - {x} - {z}")
+			}
 		}
 	}
 }
