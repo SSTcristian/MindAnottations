@@ -1,5 +1,8 @@
 Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como O(n)
-Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma complexidade quadrática:
+
+Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma complexidade quadrática - O(n ^2):
+
+###### Exemplos em CSharp:
 
 ```c sharp
 // Complexidade O(n)
@@ -24,3 +27,6 @@ Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma comp
 		}
 	}
 ```
+
+No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando n vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
+*n×n=n2n* .
