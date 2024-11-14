@@ -1,6 +1,6 @@
 A complexidade O(n²) é conhecida como **complexidade quadrática**. Esse tipo de complexidade aparece em algoritmos onde precisamos realizar operações para cada combinação de elementos em uma coleção, o que normalmente envolve **dois laços aninhados** que iteram sobre o mesmo conjunto de dados.
 
-## EXEMPLOS
+## EXEMPLO O(n)
 Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como [O(n)](O(n).md), ou seja, linear: 
 
 ```c sharp
@@ -14,7 +14,7 @@ public static void OpCubic(int n)
 	}
 ```
 
-
+## EXEMPLO QUADRATICO
 Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma complexidade quadrática - O(n ^2):
 
 ```c sharp
@@ -32,7 +32,10 @@ public static void OpCubic(int n)
 	}
 ```
 
-No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando n vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
+No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando `n` vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
 *n × n = n²*. 
+
+## AUMENTANDO A COMPLEXIDADE
+Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastavamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica 
 
 *³⁴*

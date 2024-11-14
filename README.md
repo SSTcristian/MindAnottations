@@ -13,7 +13,7 @@ No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me mot
 - [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
 - [Asymptotic Notation](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation.md)
 - [O(n)](Programming%20Concepts/Big%20O%20Notation/O(n))
-- [O(n2)](Programming%20Concepts/Big%20O%20Notation/O(n2))
+- [O(n²)](O(n²).md)
 
 
 ##### `Data Structures`
