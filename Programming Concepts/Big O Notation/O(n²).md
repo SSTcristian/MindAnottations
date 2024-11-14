@@ -6,12 +6,12 @@ Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que 
 ```c sharp
 // Complexidade O(n)
 public static void OpLinear(int n) 
+{
+	for (int i = 0; i < n; i++) 
 	{
-		for (int i = 0; i < n; i++) 
-		{
-			Console.WriteLine($"Complexidade Linear O(n): {i}");
-		}
+		Console.WriteLine($"Complexidade Linear O(n): {i}");
 	}
+}
 ```
 
 ## EXEMPLO QUADRATICO
@@ -27,9 +27,9 @@ public static void BigQuadratic(int n)
 		for (int y = 0; y < n; i++)
 		{
 			Console.WriteLine($"Complexidade quadrática: {x} - {y}");
-			}
 		}
 	}
+}
 ```
 
 No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando `n` vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
