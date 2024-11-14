@@ -1,0 +1,2 @@
+Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como O(n)
+Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma complexidade quadratica
