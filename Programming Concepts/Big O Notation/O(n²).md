@@ -60,5 +60,6 @@ public static void BigCubic(int n)
 }
 ```
 
-Assim, o output seria *n⁴*
+ Se o `n` fosse 2, então seria *n * n * n*, ou seja *n³* - o que nos retornaria *16* mensagens de console:
+ 
 *³⁴*
