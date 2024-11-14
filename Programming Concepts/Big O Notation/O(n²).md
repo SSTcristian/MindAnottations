@@ -24,9 +24,9 @@ public static void BigQuadratic(int n)
 	{
 		for (int x = 0; x < n; x++)
 		{
-			for (int y = 0; i < n; i++)
+			for (int y = 0; y < n; i++)
 			{
-				Console.WriteLine($"Operação O(n ^ 2): {x} - {y}");
+				Console.WriteLine($"Operação quadrática: {x} - {y}");
 			}
 		}
 	}
@@ -35,7 +35,10 @@ public static void BigQuadratic(int n)
 No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando `n` vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
 *n × n = n²*. 
 
-Portanto, se `n` fosse igual a 2, a função *BigQuadratic* nos retornaria 4 mensagens no console, p
+Portanto, se `n` fosse igual a 2, a função *BigQuadratic* nos retornaria 4 mensagens no console, pois *2² = 4 *:
+
+![](Pasted%20image%2020241113215338.png)
+
 
 ## AUMENTANDO A COMPLEXIDADE
 Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastávamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica, teriamos que adicionar 3 for:
