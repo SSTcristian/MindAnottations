@@ -37,11 +37,11 @@ No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos
 
 Portanto, se `n` fosse igual a 2, a função *BigQuadratic* nos retornaria 4 mensagens no console, pois *2² = 4 *:
 
-![](Pasted%20image%2020241113215338.png)
+![](../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted image 20241021192525)
 
 
 ## AUMENTANDO A COMPLEXIDADE
-Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastávamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica, teriamos que adicionar 3 for:
+Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastávamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica, teríamos que adicionar 3 for:
 
 ```c sharp
 public static void BigCubic(int n) 
