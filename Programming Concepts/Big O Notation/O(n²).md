@@ -60,4 +60,5 @@ public static void BigCubic(int n)
 }
 ```
 
+Assim, o output seria *n⁴*
 *³⁴*
