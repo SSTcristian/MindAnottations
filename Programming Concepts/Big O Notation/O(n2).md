@@ -7,9 +7,20 @@ Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma comp
 		{
 			for (int i = 0; i < n; i++) 
 			{
-				Console.WriteLine($"Operação quadratica: {i} - {j} - {z}");
+				Console.WriteLine($"Operação O(n): {i}");
 			  }
 		}
 
-// Complexidade O(n )
+// Complexidade O(n^2)
+
+	public static void OpCubic(int n)
+	{
+		for (int x = 0; x < n; x++)
+		{
+			for (int y = 0; i < n; i++)
+			{
+				Console.WriteLine($"Operação O(n ^ 2): {x} - {y}");
+			}
+		}
+	}
 ```
