@@ -21,12 +21,12 @@ Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma comp
 // Complexidade O(n^2)
 
 public static void BigQuadratic(int n)
+{
+	for (int x = 0; x < n; x++)
 	{
-		for (int x = 0; x < n; x++)
+		for (int y = 0; y < n; i++)
 		{
-			for (int y = 0; y < n; i++)
-			{
-				Console.WriteLine($"Complexidade quadrática: {x} - {y}");
+			Console.WriteLine($"Complexidade quadrática: {x} - {y}");
 			}
 		}
 	}
@@ -52,7 +52,7 @@ public static void BigCubic(int n)
 		{
 			for (int z = 0; z < n; z++)
 			{
-				Console.WriteLine("Complexidade cubica: {i} - {x} - {z}")
+				Console.WriteLine($"Complexidade cubica: {i} - {x} - {z}");
 			}
 		}
 	}
@@ -60,3 +60,5 @@ public static void BigCubic(int n)
 ```
 
  Se o `n` fosse 2, então seria *n * n * n*, ou seja *n³* - o que nos retornaria *8* mensagens de console:
+ 
+![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241113221256.png)
