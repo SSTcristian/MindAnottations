@@ -5,7 +5,7 @@ Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que 
 
 ```c sharp
 // Complexidade O(n)
-public static void OpCubic(int n) 
+public static void OpLinear(int n) 
 	{
 		for (int i = 0; i < n; i++) 
 		{
@@ -20,7 +20,7 @@ Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma comp
 ```c sharp
 // Complexidade O(n^2)
 
-public static void OpCubic(int n)
+public static void OpQuadratic(int n)
 	{
 		for (int x = 0; x < n; x++)
 		{
@@ -36,6 +36,19 @@ No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos
 *n × n = n²*. 
 
 ## AUMENTANDO A COMPLEXIDADE
-Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastavamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica 
+Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastávamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica, teriamos que adicionar 3 for:
+
+```c sharp
+public static void BigCubic(int n) 
+{
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; i++)
+		{
+		
+		}
+	}
+}
+```
 
 *³⁴*
