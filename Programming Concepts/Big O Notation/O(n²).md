@@ -9,7 +9,7 @@ public static void OpLinear(int n)
 	{
 		for (int i = 0; i < n; i++) 
 		{
-			Console.WriteLine($"Operação O(n): {i}");
+			Console.WriteLine($"Complexidade Linear O(n): {i}");
 		}
 	}
 ```
@@ -26,7 +26,7 @@ public static void BigQuadratic(int n)
 		{
 			for (int y = 0; y < n; i++)
 			{
-				Console.WriteLine($"Operação quadrática: {x} - {y}");
+				Console.WriteLine($"Complexidade quadrática: {x} - {y}");
 			}
 		}
 	}
@@ -52,14 +52,13 @@ public static void BigCubic(int n)
 		{
 			for (int z = 0; z < n; z++)
 			{
-				Console.WriteLine("Complexidade cubica: \n
-				{i} - {x} - {z}")
+				Console.WriteLine("Complexidade cubica: {i} - {x} - {z}")
 			}
 		}
 	}
 }
 ```
 
- Se o `n` fosse 2, então seria *n * n * n*, ou seja *n³* - o que nos retornaria *16* mensagens de console:
+ Se o `n` fosse 2, então seria *n * n * n*, ou seja *n³* - o que nos retornaria *8* mensagens de console:
  
 *³⁴*
