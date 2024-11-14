@@ -37,7 +37,7 @@ No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos
 
 Portanto, se `n` fosse igual a 2, a função *BigQuadratic* nos retornaria 4 mensagens no console, pois *2² = 4 *:
 
-![](../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted image 20241021192525)
+![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241113215338.png)
 
 
 ## AUMENTANDO A COMPLEXIDADE
