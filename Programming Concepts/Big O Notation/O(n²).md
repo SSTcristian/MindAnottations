@@ -48,7 +48,7 @@ public static void BigCubic(int n)
 {
 	for (int i = 0; i < n; i++)
 	{
-		for (int x = 0; x < n; i++)
+		for (int x = 0; x < n; x++)
 		{
 			for (int z = 0; z < n; z++)
 			{
@@ -60,5 +60,3 @@ public static void BigCubic(int n)
 ```
 
  Se o `n` fosse 2, então seria *n * n * n*, ou seja *n³* - o que nos retornaria *8* mensagens de console:
- 
-*³⁴*
