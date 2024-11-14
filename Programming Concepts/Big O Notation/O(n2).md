@@ -1,7 +1,7 @@
 A complexidade O(n²) é conhecida como **complexidade quadrática**. Esse tipo de complexidade aparece em algoritmos onde precisamos realizar operações para cada combinação de elementos em uma coleção, o que normalmente envolve **dois laços aninhados** que iteram sobre o mesmo conjunto de dados.
 
-## Exemplificando
-Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como O(n):
+## EXEMPLOS
+Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como [O(n)](O(n).md), ou seja, linear: 
 
 ```c sharp
 // Complexidade O(n)
