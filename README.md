@@ -1,7 +1,7 @@
 # Mind-Annotations
-![](Pasted%20image%2020241119000937.png)
+![](Images/README/Pasted%20image%2020241119000937.png)
 *Algumas pequenas anotações para estudo (usando o Obsidian)*
-
+* e*
 Essas anotações têm como objetivo criar uma estrutura de estudo clara sobre diversos temas da programação. Cada seção (e subseção) mostra os conceitos e exemplos práticos - normalmente escritos em C Sharp ou Python - de determinada terminologia.
 
 No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me motivar cada vez mais a estudar esse mundo *tão pequeno* da programação :)
