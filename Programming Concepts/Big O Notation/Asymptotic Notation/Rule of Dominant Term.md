@@ -16,7 +16,7 @@ Dado um tempo **O(n² + 3n + 2)**, qual é o termo dominante dele?
 > - **3n:** Este termo também cresce, mas não tão rapidamente quanto **n²**. Ele aumenta proporcionalmente a *n* (linearmente). Ou seja, se *n =10*, então será *n x 3*, o que nos retorna *10*.
 > 
 > - Sabendo disso, o *pior* termo dessa notação é o **n²** e, consequentemente, cresce mais rapidamente do que os outros termos quando *n* aumenta.
-> - Assim, o termo dominante/complexidade de tempo dessa notação é [O(n²)](O(n²).md).
+> - Portanto, o termo dominante/complexidade de tempo dessa notação é [O(n²)](O(n²).md).
 
 #### SIMPLIFICANDO
 - **Constantes são ignoradas**: **3n** é tratado como **n**, e 2 é simplesmente ignorado.
@@ -30,4 +30,4 @@ O termo dominante de **O(n² + 3n + 2)** é **n²**, porque ele cresce mais rapi
 # "TERMO CRESCE MAIS RAPIDAMENTE"
 *vou deixar algumas anotações aqui pq de começo nao entendi mt bem essa frase*
 
-Em si,
+*"*Quando dizemos que "um termo cresce mais rapidamente", estamos nos referindo a como o valor desse termo aumenta à medida que nnn (o tamanho da entrada) se torna maior. Essa ideia está relacionada à **taxa de crescimento** da função matemática que descreve o termo.*"*
