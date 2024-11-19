@@ -37,4 +37,4 @@ O termo dominante de **O(n² + 3n + 2)** é **n²**, porque ele cresce mais rapi
 
 "Quando dizemos que "um termo cresce mais rapidamente", estamos nos referindo a como o valor desse termo aumenta à medida que *n* (o tamanho da entrada) se torna maior. Essa ideia está relacionada à **taxa de crescimento** da função matemática que descreve o termo."
 
-![](Pasted%20image%2020241119004247.png)
+![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241119004305.png)
