@@ -1,6 +1,6 @@
 A regra do termo dominante diz que o **termo que cresce mais rápido** vai sobrepor ao **termo que cresce mais devagar**.
 
-Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o termo que cresce mais *devagar*, ou seja, o pior termo (em questão de tempo) daquela notação.
+Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o termo que cresce mais *devagar*, ou seja, o pior termo (em questão de tempo) daquela notação.![](Pasted%20image%2020241119003910.png)
 
 
 # EXEMPLO
