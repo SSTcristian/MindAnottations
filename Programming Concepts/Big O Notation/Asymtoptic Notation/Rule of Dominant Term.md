@@ -28,4 +28,6 @@ O termo dominante de **O(n² + 3n + 2)** é **n²**, porque ele cresce mais rapi
 
 
 # "TERMO CRESCE MAIS RAPIDAMENTE"
-> vou 
+*vou deixar algumas anotações aqui pq de começo nao entendi mt bem essa frase*
+
+Em si,
