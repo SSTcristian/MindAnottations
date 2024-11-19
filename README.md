@@ -1,7 +1,8 @@
 # Mind-Annotations
 ![](Images/README/Pasted%20image%2020241119000937.png)
 *Algumas pequenas anotações para estudo (usando o Obsidian)*
-* e*
+*(esse gráfico do projeto ta mt ruim pelo amor)*
+
 Essas anotações têm como objetivo criar uma estrutura de estudo clara sobre diversos temas da programação. Cada seção (e subseção) mostra os conceitos e exemplos práticos - normalmente escritos em C Sharp ou Python - de determinada terminologia.
 
 No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me motivar cada vez mais a estudar esse mundo *tão pequeno* da programação :)
@@ -9,17 +10,16 @@ No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me mot
 
 
 ## **Programming Concepts**
-##### `Big O Notation`
-- [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
+- ##### `Big O Notation`
+	- [Explanation, Example and Links](Programming%20Concepts/Big%20O%20Notation/Explanation,%20Example%20and%20Links.md)
 
-###### Asymptotic Notation
-- [Asymptotic Notation](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/Asymptotic%20Notation.md)
-- [O(n)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n).md)
-- [O(n²)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n²).md) 
-- [Rule of Dominant Term](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/Rule%20of%20Dominant%20Term.md) 
-
-
-##### `Data Structures`
+	- ###### Asymptotic Notation
+		- [Asymptotic Notation](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/Asymptotic%20Notation.md)
+		- [O(n)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n).md)
+		- [O(n²)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n²).md) 
+		- [Rule of Dominant Term](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/Rule%20of%20Dominant%20Term.md) 
+	
+	- ##### `Data Structures`
 
 - [Array (Vetor ou Matriz)](Programming%20Concepts/Data%20Structures/Array%20(Vetor%20ou%20Matriz).md)
 - [Stack - Last-In, Last-Out](Programming%20Concepts/Data%20Structures/Stack%20-%20Last-In,%20Last-Out.md)
