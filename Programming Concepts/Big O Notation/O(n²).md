@@ -35,7 +35,7 @@ public static void BigQuadratic(int n)
 No exemplo da complexidade quadrática, temos dois laços `for` aninhados, ambos iterando `n` vezes. Assim, como cada laço interno executa `n` operações para cada iteração do laço externo, o total de operações é:
 *n × n = n²*. 
 
-Portanto, se `n` fosse igual a 2, a função *BigQuadratic* nos retornaria 4 mensagens no console, pois *2² = 4 *:
+Portanto, se o parâmetro `n` da função *BigQuadratic* fosse igual a 2, ela nos retornaria 4 mensagens no console, pois *2² = 4 *:
 
 ![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241113215338.png)
 
