@@ -7,12 +7,16 @@ Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o ter
 Dado um tempo **O(n² + 3n + 2)**, qual é o termo dominante dele?
 
 > *Resposta* : 
-
-
-> Primeiro, temos que remover as constantes (todos os números sem o **n** ao lado - ou seja, o 2)
-> Agora, temos que comparar os dois termos - **n²** e **3n**, para verificar qual cresce mais rápido
-> **n²**: Este termo múltiplica o *n* ao quadrado. Por exemplo, se *n* é igual a 10, então *n x n* é igual a *100*. [Veja mais clicando aqui](O(n²).md)
-> **3n:** Este termo também cresce, mas não tão rapidamente quanto **n²**. Ele aumenta proporcionalmente a *n* (linearmente). Ou seja, se *n =10*, então será *n x 3*, o que nos retorna *10*
+> - Primeiro, temos que remover as constantes (todos os números sem o **n** ao lado - ou seja, o 2).
+> 
+> - Agora, temos que comparar os dois termos - **n²** e **3n**, para verificar qual cresce mais rápido.
+> 
+> - **n²**: Este termo múltiplica o *n* ao quadrado. Por exemplo, se *n* é igual a 10, então *n x n* é igual a *100*. [Veja mais clicando aqui](O(n²).md).
+> 
+> - **3n:** Este termo também cresce, mas não tão rapidamente quanto **n²**. Ele aumenta proporcionalmente a *n* (linearmente). Ou seja, se *n =10*, então será *n x 3*, o que nos retorna *10*.
+> 
+> Assim, o *pior* termo dessa notação é o **n²** e, consequentemente, cresce mais rapidamente do que os outros termos quando *n* aumenta.
+> 
 
 #### SIMPLIFICANDO
 - **Constantes são ignoradas**: **3n** é tratado como **n**, e 2 é simplesmente ignorado.
