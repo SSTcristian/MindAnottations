@@ -1,7 +1,11 @@
 A regra do termo dominante diz que o **termo que cresce mais rápido** vai sobrepor ao **termo que cresce mais devagar**.
 
-Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o termo que cresce mais *devagar*, ou seja, o pior termo (em questão de tempo) daquela notação.![](Pasted%20image%2020241119003910.png)
+Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o termo que cresce mais *devagar*, ou seja, o pior termo (em questão de tempo) daquela notação.
 
+![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241119003910.png)
+![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241119004104.png)
+
+*(imagens de [Iniciando com a notação Big O.](https://www.toniesteves.com/introduction-to-big-o-notation))*
 
 # EXEMPLO
 Dado um tempo **O(n² + 3n + 2)**, qual é o termo dominante dele?
@@ -33,5 +37,4 @@ O termo dominante de **O(n² + 3n + 2)** é **n²**, porque ele cresce mais rapi
 
 "Quando dizemos que "um termo cresce mais rapidamente", estamos nos referindo a como o valor desse termo aumenta à medida que *n* (o tamanho da entrada) se torna maior. Essa ideia está relacionada à **taxa de crescimento** da função matemática que descreve o termo."
 
-
-## EXEMPLO INTUITIVO
+![](Pasted%20image%2020241119004247.png)
