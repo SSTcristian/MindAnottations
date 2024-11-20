@@ -11,7 +11,7 @@ Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o ter
 Dado um tempo **O(n² + 3n + 2)**, qual é o termo dominante dele?
 
 > *Resposta* : 
-> - Primeiro, temos que remover as constantes (todos os números sem o **n** ao lado - ou seja, o 2).
+> - Primeiro, temos que remover as constantes (todos os números sem o **n** ao lado - ou seja, o 2). Porém, não podemos remover os expoentes (como o ² )
 > 
 > - Agora, temos que comparar os dois termos - **n²** e **3n**, para verificar qual cresce mais rápido.
 > 
