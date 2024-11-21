@@ -2,7 +2,7 @@ Notação Assintótica, em si, *é uma linguagem que nos permite analisar o temp
 
 Ela é usada para analisar a eficiência de algoritmos, o que ajuda a entender o quanto o tempo de execução ou o uso de memória cresce conforme a quantidade de dados aumenta.
 
-Abaixo vou deixar alguns exemplos em C S.
+Abaixo vou deixar alguns exemplos em C Sharp.
 
 # **NOTAÇÕES**
 
