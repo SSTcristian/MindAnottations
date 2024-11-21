@@ -2,8 +2,8 @@ A regra do termo dominante diz que o **termo que cresce mais rápido** vai sobre
 
 Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o termo que cresce mais *devagar*, ou seja, o pior termo (em questão de tempo) daquela notação.
 
-![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241119003910.png)
-![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241119004104.png)
+![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241120210018.png)
+
 
 *(imagens de [Iniciando com a notação Big O.](https://www.toniesteves.com/introduction-to-big-o-notation))*
 
