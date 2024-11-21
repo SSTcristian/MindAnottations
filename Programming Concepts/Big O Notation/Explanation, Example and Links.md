@@ -1,7 +1,14 @@
 A notação Big O serve para calcular a complexidade de um algoritmo, sempre levando em conta o pior dos casos.
 | Nome | Notação | Descrição |
-| Constante | O(1) | significa que leva um tempo constante/fixo, independente da quantidade de dados
- |
+| Constante | O(1) | Signfi |
+
+| Nome      | Notação  | Descrição                                                                          |
+| --------- | -------- | ---------------------------------------------------------------------------------- |
+| Constante | O(1)     | Leva um tempo constante/fixo, independente da quantidade de dados.                 |
+| Linear    | O(n)     |                                                                                    |
+| Logaritmo | O(log n) |                                                                                    |
+| Fatorial  | O(!n)    | Pior complexidade para um algoritmo, pois rapidamente o processo se torna inviável |
+
 # Nome        # Notação       # Descrição
 
 Constante                      O(1)          significa que leva um tempo constante/fixo, independente da quantidade de dados
