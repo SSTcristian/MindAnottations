@@ -2,27 +2,13 @@ A notação Big O serve para calcular a complexidade de um algoritmo, sempre lev
 | Nome | Notação | Descrição |
 | Constante | O(1) | Signfi |
 
-| Nome      | Notação  | Descrição                                                                          |
-| --------- | -------- | ---------------------------------------------------------------------------------- |
-| Constante | O(1)     | Leva um tempo constante/fixo, independente da quantidade de dados.                 |
-| Linear    | O(n)     |                                                                                    |
-| Logaritmo | O(log n) |                                                                                    |
-| Fatorial  | O(!n)    | Pior complexidade para um algoritmo, pois rapidamente o processo se torna inviável |
+| **Nome**  | **Notação** | Descrição                                                                                   | Exemplo                                                                                        |
+| :-------: | :---------: | :------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------- |
+| Constante |    O(1)     | Leva um tempo constante/fixo, independente da quantidade de dados.                          | Busca linear em um array (quando você já sabe a posição do elemento)                           |
+|  Linear   |    O(n)     | leva um tempo linear. Quanto maior a quantidade de dados, mais tempo irá levar.             | Busca simples em um array. Quando temos que percorrer todo o array/lista para achar o elemento |
+| Logaritmo |  O(log n)   | Ótimo para grandes quantidades de dados.                                                    | busca binaria - a cada etapa, elimina a quantidade de dados pela metade                        |
+| Fatorial  |    O(!n)    | Pior complexidade para um algoritmo, pois rapidamente o processo se torna inviável ou lento | caixeiro viajante ou permutações de uma lista<br>                                              |
 
-# Nome        # Notação       # Descrição
-
-Constante                      O(1)          significa que leva um tempo constante/fixo, independente da quantidade de dados
-
-
-Linear                             O(n)          no pior dos casos, leva um tempo linear. Quanto maior a quantidade de dados, mais tempo irá levar (horrível para grande quantidade de dados)
-
-
-Logaritmo                      O(log n)   ótimo para grandes quantidades de dados.
-Ex de uso: busca binaria - a cada etapa, elimina a quantidade de dados pela metade
-
-
-Fatorial                           O(!n)        pior complexidade para um algoritmo, pois rapidamente o processo se torna inviável/lento
-Ex de uso: caixeiro viajante ou permutações de uma lista
 
 
 # Exemplo O(log n) com Busca Binaria
