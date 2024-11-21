@@ -5,8 +5,8 @@ Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o ter
 ![](../../../Images/Programming%20Concepts/Big%20O%20Notation/Pasted%20image%2020241120210018.png)
 
 
-*(imagens de [Iniciando com a notação Big O.](https://www.toniesteves.com/introduction-to-big-o-notation))*
-
+*(imagens de do curso de [Algoritmos e estruturas de dados e Notação Big-O](https://www.udemy.com/course/algoritmos-e-estruturas-de-dados/))*
+[Course: Algoritmos e estruturas de dados e Notação Big-O | Udemy](https://www.udemy.com/course/algoritmos-e-estruturas-de-dados/learn/lecture/45622565#overview)
 # EXEMPLO
 Dado um tempo **O(n² + 3n + 2)**, qual é o termo dominante dele?
 
