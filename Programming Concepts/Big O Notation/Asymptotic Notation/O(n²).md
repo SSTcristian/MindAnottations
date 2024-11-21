@@ -1,7 +1,7 @@
 A complexidade O(n²) é conhecida como **complexidade quadrática**. Esse tipo de complexidade aparece em algoritmos onde precisamos realizar operações para cada combinação de elementos em uma coleção, o que normalmente envolve **dois laços aninhados** que iteram sobre o mesmo conjunto de dados.
 
 
-## EXEMPLO O(n)
+## **EXEMPLO O(n)**
 Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como [O(n)](O(n).md), ou seja, linear: 
 
 ```c sharp
@@ -16,7 +16,7 @@ public static void OpLinear(int n)
 ```
 
 
-## EXEMPLO QUADRATICO
+## **EXEMPLO QUADRÁTICO**
 Caso precisamos iterar 2 vezes essa constante, o laço for se torna com uma complexidade quadrática - O(n ^2):
 
 ```c sharp
@@ -43,7 +43,7 @@ Portanto, se o parâmetro `n` da função *BigQuadratic* fosse igual a 2, ela no
 
 
 
-## AUMENTANDO A COMPLEXIDADE
+## **AUMENTANDO A COMPLEXIDADE**
 Se quiséssemos - *por algum motivo desconhecido* - piorar a complexidade, bastávamos adicionar mais laços for e iterando cada vez mais. Por exemplo, para uma complexidade cúbica, teríamos que adicionar 3 for:
 
 ```c sharp

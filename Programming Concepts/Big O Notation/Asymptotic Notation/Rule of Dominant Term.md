@@ -7,7 +7,7 @@ Em outras palavras, a medida que **n** se torna muito grande, iremos pegar o ter
 
 *(imagens de do curso de [Algoritmos e estruturas de dados e Notação Big-O](https://www.udemy.com/course/algoritmos-e-estruturas-de-dados/))*
 [Course: Algoritmos e estruturas de dados e Notação Big-O | Udemy](https://www.udemy.com/course/algoritmos-e-estruturas-de-dados/learn/lecture/45622565#overview)
-# EXEMPLO
+# **EXEMPLO**
 Dado um tempo **O(n² + 3n + 2)**, qual é o termo dominante dele?
 
 > *Resposta* : 
@@ -32,7 +32,7 @@ O termo dominante de **O(n² + 3n + 2)** é **n²**, porque ele cresce mais rapi
 
 
 
-# "TERMO CRESCE MAIS RAPIDAMENTE"
+# **"TERMO CRESCE MAIS RAPIDAMENTE"**
 *vou deixar algumas anotações aqui pq de começo nao entendi mt bem essa frase*
 
 "Quando dizemos que "um termo cresce mais rapidamente", estamos nos referindo a como o valor desse termo aumenta à medida que *n* (o tamanho da entrada) se torna maior. Essa ideia está relacionada à **taxa de crescimento** da função matemática que descreve o termo."
