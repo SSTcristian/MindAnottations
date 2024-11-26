@@ -19,4 +19,6 @@ for (int i = 0; i < nums1.Length; i++)
 Console.WriteLine($"Passos: {count}");
 ```
 
-- O tempo se dá pela multiplica
+- O tempo se dá pela multiplicação entre o `nums1` e o `nums2`
+- Pelo `nums1` ter 3 digitos e o `nums2` tbm, fazemos **3 * 3**, o que resulta em **9**
+- Esse 9 é a quantidade de passos que ele vai demorar para chegar no resultado

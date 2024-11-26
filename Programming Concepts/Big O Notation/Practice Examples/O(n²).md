@@ -25,7 +25,7 @@ public static void BigQuadractic(int[] arr)
 }
 ```
 
-- O código acima retorna 25 pois a notação O(n²) sempre aumenta conforme o número de for cresce. Explico melhor no [O(n²)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n²).md), já que aqui é só exemplos práticos
+- O código acima retorna 25 pois a notação O(n²) sempre aumenta conforme o número de for cresce. Explico melhor no [O(n²)](Programming%20Concepts/Big%20O%20Notation/Theory/O(n²).md), já que aqui é só exemplos práticos
 
 
 

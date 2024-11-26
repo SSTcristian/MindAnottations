@@ -16,9 +16,11 @@ No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me mot
 		
 		- ###### Asymptotic Notation
 			- [Asymptotic Notation](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/Asymptotic%20Notation.md)
-			- [O(n)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n).md)
-			- [O(n²)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n²).md) 
 			- [Rule of Dominant Term](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/Rule%20of%20Dominant%20Term.md) 
+
+		- ###### Theory
+		- - [O(n)](Programming%20Concepts/Big%20O%20Notation/Theory/O(n).md)
+		- [O(n²)](Programming%20Concepts/Big%20O%20Notation/Theory/O(n²).md) 
 		
 		- ###### Practice Examples
 			- [O(1)](Programming%20Concepts/Big%20O%20Notation/Practice%20Examples/O(1).md) 
