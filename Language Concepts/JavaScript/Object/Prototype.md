@@ -7,8 +7,8 @@ Por exemplo, se eu quero adicionar um novo método em um array que retorna o úl
 
 ```js
 Array.prototype.last = function() {
-	reteurn this[this - 1]
+	reteurn this[this.length - 1];
 }
 
-
+[1, 2, 3, 4, 5].last(); // retorna 5
 ```
