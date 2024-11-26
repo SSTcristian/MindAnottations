@@ -1,9 +1,9 @@
 # **EXEMPLOS DE O(n²) - QUADRÁTICO COM C SHARP**
 
 ```c sharp
-int[] vet = [1, 2, 3, 4, 5]
+int[] vet = new int[] { 1, 2, 3, 4, 5 }
 
-public static int BigQuadractic(int[] arr) 
+public static void BigQuadractic(int[] arr) 
 {
 	int count = 0;
 	for (int i = 0; i < arr.length; i++)
@@ -13,7 +13,8 @@ public static int BigQuadractic(int[] arr)
 			count++
 		}
 	}
+	Console.WriteLine(count)
 }
 
-Console.WriteLine(BigQuadractic(vet))
+BigQuadractic(vet)
 ```
