@@ -1,4 +1,4 @@
-## **EXEMPLOS PRÁTICOS COM C SHARP**
+# **EXEMPLOS DE O(n) - LINEAR COM C SHARP**
 
 ```c sharp
 public static int SomarArr(int[] arr) 
