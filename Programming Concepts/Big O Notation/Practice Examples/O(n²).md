@@ -28,6 +28,7 @@ public static void BigQuadractic(int[] arr)
 - O código acima retorna 25 pois a notação O(n²) sempre aumenta conforme o número de for cresce. Explico melhor no [O(n²)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n²).md), já que aqui é só exemplos práticos
 
 
+
 ### **SOMAR NÚMEROS DE UMA MATRIZ**
 
 ```c sharp
@@ -66,5 +67,7 @@ public static void SomarMatriz(int[,] matriz)
 - Pela matriz possuir **2 dimensões** (linhas e colunas), temos que fazer um for pra cada uma
 
 - No primeiro for, pegamos todas as linhas
+
 - No segundo, pegamos todas as colunas
-- Depois
+
+- Depois, somamos todas as linhas e colunas com `count += matriz[j, i]`
