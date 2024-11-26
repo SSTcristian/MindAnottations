@@ -2,7 +2,7 @@ A complexidade O(n²) é conhecida como **complexidade quadrática**. Esse tipo 
 
 
 ## **EXEMPLO O(n)**
-Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como [O(n)](O(n).md), ou seja, linear: 
+Quando temos uma constante e queremos iterar sobre ela, fazemos um for. - o que caracteriza a complexidade de tempo como [O(n)](Programming%20Concepts/Big%20O%20Notation/Asymptotic%20Notation/O(n).md), ou seja, linear: 
 
 ```c sharp
 // Complexidade O(n)
