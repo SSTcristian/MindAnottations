@@ -9,7 +9,7 @@ public static void Main(string[] args)
 	BigQuadractic(vet);
 	// 25
 	
-}
+}q
 
 public static void BigQuadractic(int[] arr)
 {
