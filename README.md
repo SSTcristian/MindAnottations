@@ -22,6 +22,8 @@ No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me mot
 		
 		- ###### Practice Examples
 			- [O(1)](Programming%20Concepts/Big%20O%20Notation/Practice%20Examples/O(1).md) 
+			- [O(n)](Programming%20Concepts/Big%20O%20Notation/Practice%20Examples/O(n).md) 
+			- [O(n²)](Programming%20Concepts/Big%20O%20Notation/Practice%20Examples/O(n²).md) 
 	
 	- ##### `Data Structures`
 		- [Array (Vetor ou Matriz)](Programming%20Concepts/Data%20Structures/Array%20(Vetor%20ou%20Matriz).md)
