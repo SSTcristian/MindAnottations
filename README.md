@@ -4,11 +4,11 @@
 
 
 
-Theses annotations, in general, is kinda like a "mental map" - i use annotation for keep my mind the infos about some study and so on
+These annotations, in general, is kinda like a "mental map" - I use annotation to keep my mind the infos about some studies and so on
 
-Also, i like make theses annotations bc them motivates me to study more about IT world
+Also, i like making these annotations bc they motivate me to study more about IT world
 
-**OBS**: Theses annotations are in portuguese, which the my native language
+**OBS**: These annotations are in portuguese, which is my native language
 
 - ## **Programming Concepts**
 	- ##### `Big O Notation`
