@@ -8,6 +8,7 @@ Theses annotations, in general, is kinda like a "mental map" - i use annotation 
 
 Also, i like make theses annotations bc them motivates me to study more about IT world
 
+**OBS**: Theses annotations are in portuguese, which the my native language
 
 - ## **Programming Concepts**
 	- ##### `Big O Notation`
