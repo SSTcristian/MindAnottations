@@ -1,13 +1,12 @@
 # Mind-Annotations
 ![](Images/README/Pasted%20image%2020241119000937.png)
-*Algumas pequenas anotações para estudo (usando o Obsidian)
+*Some annotations that i use for study (ye i using obsidian)
 
-*(esse gráfico do projeto ta mt ruim pelo amor)*
 
-Essas anotações têm como objetivo criar uma estrutura de estudo clara sobre diversos temas da programação. Cada seção (e subseção) mostra os conceitos e exemplos práticos - normalmente escritos em C Sharp ou Python - de determinada terminologia.
 
-No geral, estou usando isso para me ajudar a lembrar de certos assuntos e me motivar cada vez mais a estudar esse mundo *tão pequeno* da programação :)
+Theses annotations, in general, is kinda like a "mental map" - i use annotation for keep my mind the infos about some study and so on
 
+Also, i like make theses annotations bc them motivates me to study more about IT world
 
 
 - ## **Programming Concepts**
