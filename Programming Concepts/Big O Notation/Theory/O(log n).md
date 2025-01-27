@@ -1,3 +1,6 @@
+
+
+# **EXPLICAÇÃO**
 Aumenta logariticamente conforme o valor de entrada aumenta
 
 Por exemplo, se tivessemos o seguinte vetor:
