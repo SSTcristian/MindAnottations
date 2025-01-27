@@ -1,1 +1,1 @@
-  
+Aumenta logariticamente conforme o valor de entrada aumenta
